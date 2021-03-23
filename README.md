@@ -1,3 +1,5 @@
 # ArnoldC
 
-Programming language based on th
+Programming language based on the one-liners of Arnold Schwarzenegger.
+
+#
