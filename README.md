@@ -14,4 +14,5 @@ Although the one-liners of Arnold Schwarzenegger are fairly well known the true 
 
 ## Quick Start
 
-	wget
+	wget http://lhartikk.github.io/ArnoldC.jar
+	echo -
