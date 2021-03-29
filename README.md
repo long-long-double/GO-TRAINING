@@ -15,4 +15,4 @@ Although the one-liners of Arnold Schwarzenegger are fairly well known the true 
 ## Quick Start
 
 	wget http://lhartikk.github.io/ArnoldC.jar
-	echo -
+	echo -e "IT'S SHOWTIME\nTALK TO THE HAND \"hello wo
