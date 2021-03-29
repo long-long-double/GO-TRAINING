@@ -10,4 +10,8 @@ Although the one-liners of Arnold Schwarzenegger are fairly well known the true 
 
 	IT'S SHOWTIME
 	TALK TO THE HAND "hello world"
-	YOU
+	YOU HAVE BEEN TERMINATED
+
+## Quick Start
+
+	wget
