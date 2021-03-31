@@ -19,4 +19,6 @@ Although the one-liners of Arnold Schwarzenegger are fairly well known the true 
 	java -jar ArnoldC.jar hello.arnoldc
 	java hello
 
-To create som
+To create some "audible" output you can try the -declaim option:
+
+	j
