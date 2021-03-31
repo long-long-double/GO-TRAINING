@@ -15,4 +15,5 @@ Although the one-liners of Arnold Schwarzenegger are fairly well known the true 
 ## Quick Start
 
 	wget http://lhartikk.github.io/ArnoldC.jar
-	echo -e "IT'S SHOWTIME\nTALK TO THE HAND \"hello wo
+	echo -e "IT'S SHOWTIME\nTALK TO THE HAND \"hello world\"\nYOU HAVE BEEN TERMINATED" > hello.arnoldc
+	java -ja
