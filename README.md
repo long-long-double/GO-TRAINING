@@ -21,4 +21,6 @@ Although the one-liners of Arnold Schwarzenegger are fairly well known the true 
 
 To create some "audible" output you can try the -declaim option:
 
-	j
+	java -jar ArnoldC.jar -declaim hello.arnoldc
+
+## Brief over
