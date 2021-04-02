@@ -23,4 +23,6 @@ To create some "audible" output you can try the -declaim option:
 
 	java -jar ArnoldC.jar -declaim hello.arnoldc
 
-## Brief over
+## Brief overview of the keywords
+
+Check the [wiki](http://github.com/
