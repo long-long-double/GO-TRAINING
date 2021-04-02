@@ -25,4 +25,6 @@ To create some "audible" output you can try the -declaim option:
 
 ## Brief overview of the keywords
 
-Check the [wiki](http://github.com/
+Check the [wiki](http://github.com/lhartikk/ArnoldC/wiki/ArnoldC) for more details
+
+[Fals
