@@ -29,4 +29,6 @@ Check the [wiki](http://github.com/lhartikk/ArnoldC/wiki/ArnoldC) for more detai
 
 [False](http://www.youtube.com/watch?v=_wk-jT9rn-8) `I LIED`
 
-[True](http://www.youtube.com/watch?v=CtNb
+[True](http://www.youtube.com/watch?v=CtNb1dnEaSQ) `NO PROBLEMO`
+
+[If](http://www.youtube.co
