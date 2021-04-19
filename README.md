@@ -37,4 +37,4 @@ Check the [wiki](http://github.com/lhartikk/ArnoldC/wiki/ArnoldC) for more detai
 
 [EndIf](http://youtu.be/uGstM8QMCjQ?t=1m23s) `YOU HAVE NO RESPECT FOR LOGIC`
 
-[While
+[While](http://www.youtube.com/watch?v=wDztrw_0N
