@@ -35,4 +35,6 @@ Check the [wiki](http://github.com/lhartikk/ArnoldC/wiki/ArnoldC) for more detai
 
 [Else](http://www.youtube.com/watch?v=c4psKYpfnYs) `BULLSHIT`
 
-[EndIf](http://youtu.be/uGstM
+[EndIf](http://youtu.be/uGstM8QMCjQ?t=1m23s) `YOU HAVE NO RESPECT FOR LOGIC`
+
+[While
