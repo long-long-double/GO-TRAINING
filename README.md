@@ -33,4 +33,6 @@ Check the [wiki](http://github.com/lhartikk/ArnoldC/wiki/ArnoldC) for more detai
 
 [If](http://www.youtube.com/watch?v=MiB7GLyvvJQ) `BECAUSE I'M GOING TO SAY PLEASE`
 
-[Else](http://www.youtube.com/watch?v=c4psKYpfn
+[Else](http://www.youtube.com/watch?v=c4psKYpfnYs) `BULLSHIT`
+
+[EndIf](http://youtu.be/uGstM
