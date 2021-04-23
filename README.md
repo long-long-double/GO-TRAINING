@@ -39,4 +39,6 @@ Check the [wiki](http://github.com/lhartikk/ArnoldC/wiki/ArnoldC) for more detai
 
 [While](http://www.youtube.com/watch?v=wDztrw_0N8M) `STICK AROUND`
 
-[EndWhile](http://www.youtube
+[EndWhile](http://www.youtube.com/watch?v=R39e30FL37U) `CHILL`
+
+PlusOperator `GET U
