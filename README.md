@@ -43,4 +43,6 @@ Check the [wiki](http://github.com/lhartikk/ArnoldC/wiki/ArnoldC) for more detai
 
 PlusOperator `GET UP`
 
-[MinusOperator](http://www.youtube.com
+[MinusOperator](http://www.youtube.com/watch?v=7Ox0Ehq-FRQ) `GET DOWN`
+
+[Multipli
