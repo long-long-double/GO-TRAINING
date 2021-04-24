@@ -41,4 +41,6 @@ Check the [wiki](http://github.com/lhartikk/ArnoldC/wiki/ArnoldC) for more detai
 
 [EndWhile](http://www.youtube.com/watch?v=R39e30FL37U) `CHILL`
 
-PlusOperator `GET U
+PlusOperator `GET UP`
+
+[MinusOperator](http://www.youtube.com
