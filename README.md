@@ -47,4 +47,6 @@ PlusOperator `GET UP`
 
 [MultiplicationOperator](http://www.youtube.com/watch?v=lf3Kyv_iaNs) `YOU'RE FIRED`
 
-[DivisionOperator](http://w
+[DivisionOperator](http://www.youtube.com/watch?v=9VHtuqXZQeo) `HE HAD TO SPLIT`
+
+[M
