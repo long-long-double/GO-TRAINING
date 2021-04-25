@@ -49,4 +49,4 @@ PlusOperator `GET UP`
 
 [DivisionOperator](http://www.youtube.com/watch?v=9VHtuqXZQeo) `HE HAD TO SPLIT`
 
-[M
+[ModuloOperator](http://www.youtube.com/watch?
