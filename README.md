@@ -45,4 +45,6 @@ PlusOperator `GET UP`
 
 [MinusOperator](http://www.youtube.com/watch?v=7Ox0Ehq-FRQ) `GET DOWN`
 
-[MultiplicationOperator](http://www.youtube.com/wa
+[MultiplicationOperator](http://www.youtube.com/watch?v=lf3Kyv_iaNs) `YOU'RE FIRED`
+
+[DivisionOperator](http://w
