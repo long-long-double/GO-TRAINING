@@ -45,4 +45,4 @@ PlusOperator `GET UP`
 
 [MinusOperator](http://www.youtube.com/watch?v=7Ox0Ehq-FRQ) `GET DOWN`
 
-[Multipli
+[MultiplicationOperator](http://www.youtube.com/wa
