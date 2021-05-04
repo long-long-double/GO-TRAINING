@@ -51,4 +51,6 @@ PlusOperator `GET UP`
 
 [ModuloOperator](http://www.youtube.com/watch?v=ybJWKZB0Erk&feature=youtu.be&t=6m59s)  `I LET HIM GO`
 
-[EqualTo](http://www.youtube.com/watch
+[EqualTo](http://www.youtube.com/watch?v=A1-wUV0-_JY) `YOU ARE NOT YOU YOU ARE ME`
+
+[GreaterThan](http://www.youtube.com/watch?v=19R2fDXCzcM) `LE
