@@ -53,4 +53,6 @@ PlusOperator `GET UP`
 
 [EqualTo](http://www.youtube.com/watch?v=A1-wUV0-_JY) `YOU ARE NOT YOU YOU ARE ME`
 
-[GreaterThan](http://www.youtube.com/watch?v=19R2fDXCzcM) `LE
+[GreaterThan](http://www.youtube.com/watch?v=19R2fDXCzcM) `LET OFF SOME STEAM BENNET`
+
+[Or](http://w
