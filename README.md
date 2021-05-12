@@ -55,4 +55,6 @@ PlusOperator `GET UP`
 
 [GreaterThan](http://www.youtube.com/watch?v=19R2fDXCzcM) `LET OFF SOME STEAM BENNET`
 
-[Or](http://www.youtube.com/watch?v=RYtQMhnBtTw) `CONSIDER 
+[Or](http://www.youtube.com/watch?v=RYtQMhnBtTw) `CONSIDER THAT A DIVORCE`
+
+[And](http://www.youtube.com/watch?v
