@@ -59,4 +59,4 @@ PlusOperator `GET UP`
 
 [And](http://www.youtube.com/watch?v=ZQ_Q2b_aXjk) `KNOCK KNOCK`
 
-[DeclareMetho
+[DeclareMethod](http://www.youtube.com/watch?v=uCwrOpnyXeo) `LISTE
