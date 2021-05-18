@@ -59,4 +59,6 @@ PlusOperator `GET UP`
 
 [And](http://www.youtube.com/watch?v=ZQ_Q2b_aXjk) `KNOCK KNOCK`
 
-[DeclareMethod](http://www.youtube.com/watch?v=uCwrOpnyXeo) `LISTE
+[DeclareMethod](http://www.youtube.com/watch?v=uCwrOpnyXeo) `LISTEN TO ME VERY CAREFULLY`
+
+[NonVoidMethod](http://ww
