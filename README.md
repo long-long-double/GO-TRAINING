@@ -67,4 +67,6 @@ PlusOperator `GET UP`
 
 [Return](http://www.youtube.com/watch?v=-YEG9DgRHhA) `I'LL BE BACK`
 
-[EndMethodDeclaration](http://www.youtube.com/watch?v=Hhm7aWp8gvc) `HASTA L
+[EndMethodDeclaration](http://www.youtube.com/watch?v=Hhm7aWp8gvc) `HASTA LA VISTA, BABY`
+
+[CallMethod](http://www.youtube.com/wat
