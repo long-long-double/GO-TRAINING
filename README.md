@@ -69,4 +69,6 @@ PlusOperator `GET UP`
 
 [EndMethodDeclaration](http://www.youtube.com/watch?v=Hhm7aWp8gvc) `HASTA LA VISTA, BABY`
 
-[CallMethod](http://www.youtube.com/wat
+[CallMethod](http://www.youtube.com/watch?v=HGhP3p6lI3U) `DO IT NOW`
+
+[Assi
