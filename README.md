@@ -75,4 +75,4 @@ PlusOperator `GET UP`
 
 [DeclareInt](http://www.youtube.com/watch?v=PZwwqjcEDUQ) `HEY CHRISTMAS TREE`
 
-[Set
+[SetInitialValue](http://www.youtube.com/watch?v=lwqzA6F7nws) 
