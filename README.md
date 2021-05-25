@@ -71,4 +71,6 @@ PlusOperator `GET UP`
 
 [CallMethod](http://www.youtube.com/watch?v=HGhP3p6lI3U) `DO IT NOW`
 
-[AssignVariableFromMethodCall](http://www.youtube.com/watch?v=HkkibBYm2WI) `GET YOUR AS
+[AssignVariableFromMethodCall](http://www.youtube.com/watch?v=HkkibBYm2WI) `GET YOUR ASS TO MARS`
+
+[DeclareInt](http://www.youtube.com/watc
