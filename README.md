@@ -73,4 +73,6 @@ PlusOperator `GET UP`
 
 [AssignVariableFromMethodCall](http://www.youtube.com/watch?v=HkkibBYm2WI) `GET YOUR ASS TO MARS`
 
-[DeclareInt](http://www.youtube.com/watc
+[DeclareInt](http://www.youtube.com/watch?v=PZwwqjcEDUQ) `HEY CHRISTMAS TREE`
+
+[Set
