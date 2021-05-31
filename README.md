@@ -79,4 +79,6 @@ PlusOperator `GET UP`
 
 [BeginMain](http://www.youtube.com/watch?v=TKTL2EDTFSo) `IT'S SHOWTIME`
 
-[EndMain](http://www.youtube.com/watch?v=iy_BBBGBp
+[EndMain](http://www.youtube.com/watch?v=iy_BBBGBpqA) `YOU HAVE BEEN TERMINATED`
+
+[Print](htt
