@@ -81,4 +81,6 @@ PlusOperator `GET UP`
 
 [EndMain](http://www.youtube.com/watch?v=iy_BBBGBpqA) `YOU HAVE BEEN TERMINATED`
 
-[Print](http://www.youtube.com/watch?v=dQ6m8ztEzfA) `TALK TO THE 
+[Print](http://www.youtube.com/watch?v=dQ6m8ztEzfA) `TALK TO THE HAND`
+
+[ReadInteger](https://www.youtub
