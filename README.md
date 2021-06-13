@@ -87,4 +87,4 @@ PlusOperator `GET UP`
 
 [AssignVariable](http://www.youtube.com/watch?v=-9-Te-DPbSE) `GET TO THE CHOPPER`
 
-[SetValue](http://www.youtube.com/w
+[SetValue](http://www.youtube.com/watch?v=RrPXRkJ_P90) `HERE IS MY INVITATION`
