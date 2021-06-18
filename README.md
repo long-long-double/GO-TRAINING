@@ -89,4 +89,6 @@ PlusOperator `GET UP`
 
 [SetValue](http://www.youtube.com/watch?v=RrPXRkJ_P90) `HERE IS MY INVITATION`
 
-[EndAssignVariable](http://www.youtube.com/wa
+[EndAssignVariable](http://www.youtube.com/watch?v=rk9WHasIZk0) `ENOUGH TALK`
+
+[ParseError](http:
