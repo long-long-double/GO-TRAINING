@@ -1,3 +1,7 @@
 import AssemblyKeys._
 
-assemblySettin
+assemblySettings
+
+name := "ArnoldC"
+
+version := "0.
