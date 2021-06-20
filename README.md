@@ -91,4 +91,4 @@ PlusOperator `GET UP`
 
 [EndAssignVariable](http://www.youtube.com/watch?v=rk9WHasIZk0) `ENOUGH TALK`
 
-[ParseError](http://www.youtube.com/watch?v=oGcRTJK43OM) `WHAT THE FUCK
+[ParseError](http://www.youtube.com/watch?v=oGcRTJK43OM) `WHAT THE FUCK DID I DO WRONG`
