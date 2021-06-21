@@ -8,4 +8,6 @@ version := "0.1"
 
 scalaVersion := "2.11.4"
 
-ideaExcludeFolders
+ideaExcludeFolders += ".idea"
+
+ideaExcludeFolders += ".idea_mo
