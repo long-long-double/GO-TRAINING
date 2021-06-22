@@ -12,4 +12,6 @@ ideaExcludeFolders += ".idea"
 
 ideaExcludeFolders += ".idea_modules"
 
-libraryDependencies += "asm" % "
+libraryDependencies += "asm" % "asm-commons" % "3.3.1"
+
+libraryDependencies +
