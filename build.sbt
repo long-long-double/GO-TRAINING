@@ -14,4 +14,4 @@ ideaExcludeFolders += ".idea_modules"
 
 libraryDependencies += "asm" % "asm-commons" % "3.3.1"
 
-libraryDependencies +
+libraryDependencies += "org.parboiled" %% "parboiled-scala" % "1.1.6"
