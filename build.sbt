@@ -10,4 +10,6 @@ scalaVersion := "2.11.4"
 
 ideaExcludeFolders += ".idea"
 
-ideaExcludeFolders += ".idea_mo
+ideaExcludeFolders += ".idea_modules"
+
+libraryDependencies += "asm" % "
