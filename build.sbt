@@ -21,4 +21,5 @@ libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.1" % "test"
 libraryDependencies ++= Seq(
   "javax.speech" % "jsapi" % "1.0",
   "org.mobicents.external.freetts" % "cmu_us_kal" % "1.0",
- 
+  "org.mobicents.external.freetts" % "freetts" % "1.0",
+  "org.mobicents.e
