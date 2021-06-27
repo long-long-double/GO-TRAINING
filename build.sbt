@@ -16,4 +16,6 @@ libraryDependencies += "asm" % "asm-commons" % "3.3.1"
 
 libraryDependencies += "org.parboiled" %% "parboiled-scala" % "1.1.6"
 
-libraryDependencies += "org.scalatest" %% "scal
+libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.1" % "test"
+
+libraryDependenc
