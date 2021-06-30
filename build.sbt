@@ -26,4 +26,4 @@ libraryDependencies ++= Seq(
   "org.mobicents.external.freetts" % "cmulex" % "1.0"
 )
 
-resolver
+resolvers += "Speech" at "http://maven.it.su.se/it.s
