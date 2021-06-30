@@ -22,4 +22,5 @@ libraryDependencies ++= Seq(
   "javax.speech" % "jsapi" % "1.0",
   "org.mobicents.external.freetts" % "cmu_us_kal" % "1.0",
   "org.mobicents.external.freetts" % "freetts" % "1.0",
-  "org.mobicents.e
+  "org.mobicents.external.freetts" % "en_us" % "1.0",
+  "o
