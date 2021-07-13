@@ -5,4 +5,5 @@ import org.arnoldc.ast.RootNode
 
 object ArnoldC {
   def main(args: Array[String]) {
-    
+    if (args.length < 1) {
+      println("Usage: ArnoldC [-
