@@ -7,4 +7,6 @@ object ArnoldC {
   def main(args: Array[String]) {
     if (args.length < 1) {
       println("Usage: ArnoldC [-run|-declaim] [FileToSourceCode]")
-      ret
+      return
+    }
+    val filename = getFilNameFromArgs(args)
