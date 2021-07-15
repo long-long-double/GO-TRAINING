@@ -12,4 +12,5 @@ object ArnoldC {
     val filename = getFilNameFromArgs(args)
     val sourceCode = scala.io.Source.fromFile(filename).mkString
     val a = new ArnoldGenerator()
-    val classFile
+    val classFilename = if (filename.contains('.')) {
+      filenam
