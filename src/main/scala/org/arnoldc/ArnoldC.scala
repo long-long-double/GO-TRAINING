@@ -10,3 +10,5 @@ object ArnoldC {
       return
     }
     val filename = getFilNameFromArgs(args)
+    val sourceCode = scala.io.Source.fromFile(filename).mkString
+  
