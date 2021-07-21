@@ -13,4 +13,7 @@ object ArnoldC {
     val sourceCode = scala.io.Source.fromFile(filename).mkString
     val a = new ArnoldGenerator()
     val classFilename = if (filename.contains('.')) {
-      filenam
+      filename.replaceAll("\\.[^.]*$", "")
+    }
+    else {
+     
