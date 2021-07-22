@@ -16,4 +16,6 @@ object ArnoldC {
       filename.replaceAll("\\.[^.]*$", "")
     }
     else {
-     
+      filename
+    }
+    val (bytecode, root) = a.gener
