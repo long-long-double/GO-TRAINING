@@ -18,4 +18,6 @@ object ArnoldC {
     else {
       filename
     }
-    val (bytecode, root) = a.gener
+    val (bytecode, root) = a.generate(sourceCode, classFilename)
+
+    val out = new Fi
