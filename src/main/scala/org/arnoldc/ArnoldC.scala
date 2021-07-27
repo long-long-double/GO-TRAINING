@@ -21,4 +21,7 @@ object ArnoldC {
     val (bytecode, root) = a.generate(sourceCode, classFilename)
 
     val out = new FileOutputStream(classFilename + ".class")
-   
+    out.write(bytecode)
+    out.close()
+
+    processOp
