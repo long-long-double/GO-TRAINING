@@ -24,4 +24,4 @@ object ArnoldC {
     out.write(bytecode)
     out.close()
 
-    processOp
+    processOption(getCommandFromArgs(args), classFilename, root)
