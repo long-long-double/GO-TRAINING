@@ -25,3 +25,7 @@ object ArnoldC {
     out.close()
 
     processOption(getCommandFromArgs(args), classFilename, root)
+
+  }
+  
+  def getFilNameFromArgs(args:Array[String]):S
