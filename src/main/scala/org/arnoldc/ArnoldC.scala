@@ -28,4 +28,6 @@ object ArnoldC {
 
   }
   
-  def getFilNameFromArgs(args:Array[String]):S
+  def getFilNameFromArgs(args:Array[String]):String = args.length match {
+    case 1 => args(0)
+    ca
