@@ -36,3 +36,5 @@ object ArnoldC {
 
   def getCommandFromArgs(args:Array[String]):String = args.length match {
     case 2 => args(0)
+    case 1 => ""
+    case _ => throw new 
