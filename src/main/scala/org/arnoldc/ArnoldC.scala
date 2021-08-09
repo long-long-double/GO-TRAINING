@@ -39,3 +39,5 @@ object ArnoldC {
     case 1 => ""
     case _ => throw new RuntimeException("WHAT THE FUCK DID I DO WRONG!")
   }
+
+  def processOption(command:String, argFunc: => 
