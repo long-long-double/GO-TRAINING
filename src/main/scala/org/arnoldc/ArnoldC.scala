@@ -40,4 +40,4 @@ object ArnoldC {
     case _ => throw new RuntimeException("WHAT THE FUCK DID I DO WRONG!")
   }
 
-  def processOption(command:String, argFunc: => 
+  def processOption(command:String, argFunc: => String, root: RootNode):Unit = comman
