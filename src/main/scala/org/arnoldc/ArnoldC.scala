@@ -40,4 +40,5 @@ object ArnoldC {
     case _ => throw new RuntimeException("WHAT THE FUCK DID I DO WRONG!")
   }
 
-  def processOption(command:String, argFunc: => String, root: RootNode):Unit = comman
+  def processOption(command:String, argFunc: => String, root: RootNode):Unit = command match {
+    case "-run" => Executor.execute(arg
