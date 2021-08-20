@@ -43,4 +43,7 @@ object ArnoldC {
   def processOption(command:String, argFunc: => String, root: RootNode):Unit = command match {
     case "-run" => Executor.execute(argFunc)
     case "-declaim" => Declaimer.declaim(root, argFunc)
-    case _ =
+    case _ =>
+  }
+
+}
