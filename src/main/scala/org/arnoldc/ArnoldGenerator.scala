@@ -1,3 +1,6 @@
 package org.arnoldc
 
-import org.arnol
+import org.arnoldc.ast.RootNode
+
+
+class ArnoldGenerator extends 
