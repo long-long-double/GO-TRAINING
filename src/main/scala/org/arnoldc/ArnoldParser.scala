@@ -47,3 +47,40 @@ class ArnoldParser extends Parser {
   val WhiteSpace = oneOrMore(" " | "\t")
 
   def Root: Rule1[RootNode] = rule {
+    oneOrMore(AbstractMethod) ~ EOI ~~> RootNode
+  }
+
+  def AbstractMethod: Rule1[AbstractMethodNode] = rule {
+    (MainMethod | Method) ~ optional(EOL)
+  }
+
+  def MainMethod: Rule1[AbstractMethodNode] = rule {
+    BeginMain ~ EOL ~ zeroOrMore(Statement) ~ EndMain ~~> MainMethodNode
+  }
+
+  def Method: Rule1[AbstractMethodNode] = rule {
+    DeclareMethod ~ WhiteSpace ~ VariableName ~> (s => s) ~ EOL ~
+      zeroOrMore((MethodArguments ~ WhiteSpace ~ Variable ~ EOL)) ~
+      (NonVoidMethod | "") ~> ((m: String) => m == NonVoidMethod) ~ optional(EOL) ~
+      zeroOrMore(Statement) ~ EndMethodDeclaration ~~> MethodNode
+  }
+
+  def Statement: Rule1[StatementNode] = rule {
+    DeclareIntStatement | PrintStatement |
+      AssignVariableStatement | ConditionStatement |
+      WhileStatement | CallMethodStatement | ReturnStatement | CallReadMethodStatement
+  }
+
+  def CallMethodStatement: Rule1[StatementNode] = rule {
+    (AssignVariableFromMethodCall ~ WhiteSpace ~ VariableName ~> (v => v) ~ EOL | "" ~> (v => v)) ~
+      CallMethod ~ WhiteSpace ~ VariableName ~> (v => v) ~
+      zeroOrMore(WhiteSpace ~ Operand) ~ EOL ~~> CallMethodNode
+  }
+
+  def CallReadMethodStatement: Rule1[StatementNode] = rule {
+    (AssignVariableFromMethodCall ~ WhiteSpace ~ VariableName ~> (v => v) ~ EOL | "" ~> (v => v)) ~
+      CallMethod ~ EOL ~ Read ~ EOL ~~> CallReadMethodNode
+  }
+
+  def ConditionStatement: Rule1[ConditionNode] = rule {
+    If ~ WhiteSpace ~ Operand ~ EOL ~ zeroOrMore(Statement) ~
