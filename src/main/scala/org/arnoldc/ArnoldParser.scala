@@ -84,3 +84,50 @@ class ArnoldParser extends Parser {
 
   def ConditionStatement: Rule1[ConditionNode] = rule {
     If ~ WhiteSpace ~ Operand ~ EOL ~ zeroOrMore(Statement) ~
+      (Else ~ EOL ~ zeroOrMore(Statement) ~~> ConditionNode
+        | zeroOrMore(Statement) ~~> ConditionNode) ~ EndIf ~ EOL
+
+  }
+
+  def WhileStatement: Rule1[WhileNode] = rule {
+    While ~ WhiteSpace ~ Operand ~ EOL ~ zeroOrMore(Statement) ~ EndWhile ~ EOL ~~> WhileNode
+  }
+
+  def PrintStatement: Rule1[PrintNode] = rule {
+    Print ~ WhiteSpace ~ (Operand ~~> PrintNode | "\"" ~ String ~ "\"" ~~> PrintNode) ~ EOL
+  }
+
+  def DeclareIntStatement: Rule1[DeclareIntNode] = rule {
+    DeclareInt ~ WhiteSpace ~ VariableName ~> (s => s) ~ EOL ~ SetInitialValue ~ WhiteSpace ~ Operand ~~> DeclareIntNode ~ EOL
+  }
+
+  def AssignVariableStatement: Rule1[AssignVariableNode] = rule {
+    AssignVariable ~ WhiteSpace ~ VariableName ~> (s => s) ~ EOL ~ Expression ~ EndAssignVariable ~ EOL ~~> AssignVariableNode
+  }
+
+  def ReturnStatement: Rule1[StatementNode] = rule {
+    Return ~ ((WhiteSpace ~ Operand ~~> (o => ReturnNode(Some(o)))) | "" ~> (s => ReturnNode(None))) ~ EOL
+  }
+
+  def Operand: Rule1[OperandNode] = rule {
+    Number | Variable | Boolean
+  }
+
+  def Expression: Rule1[AstNode] = rule {
+    SetValueExpression ~
+      (zeroOrMore(ArithmeticOperation | LogicalOperation))
+  }
+
+  def LogicalOperation: ReductionRule1[AstNode, AstNode] = rule {
+    Or ~ WhiteSpace ~ Operand ~ EOL ~~> OrNode |
+      And ~ WhiteSpace ~ Operand ~ EOL ~~> AndNode |
+      EqualTo ~ WhiteSpace ~ Operand ~ EOL ~~> EqualToNode |
+      GreaterThan ~ WhiteSpace ~ Operand ~ EOL ~~> GreaterThanNode
+
+  }
+
+  def RelationalExpression: ReductionRule1[AstNode, AstNode] = {
+    EqualToExpression ~~> EqualToNode |
+      GreaterThanExpression ~~> GreaterThanNode
+  }
+
