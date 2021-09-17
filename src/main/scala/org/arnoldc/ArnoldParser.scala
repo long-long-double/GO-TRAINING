@@ -131,3 +131,48 @@ class ArnoldParser extends Parser {
       GreaterThanExpression ~~> GreaterThanNode
   }
 
+
+  def EqualToExpression: Rule1[OperandNode] = {
+    EqualTo ~ WhiteSpace ~ Operand ~ EOL
+  }
+
+  def GreaterThanExpression: Rule1[OperandNode] = {
+    GreaterThan ~ WhiteSpace ~ Operand ~ EOL
+  }
+
+  def ArithmeticOperation: ReductionRule1[AstNode, AstNode] = rule {
+    PlusExpression ~~> PlusExpressionNode |
+      MinusExpression ~~> MinusExpressionNode |
+      MultiplicationExpression ~~> MultiplicationExpressionNode |
+      DivisionExpression ~~> DivisionExpressionNode |
+      ModuloExpression ~~> ModuloExpressionNode
+  }
+
+  def SetValueExpression: Rule1[OperandNode] = rule {
+    SetValue ~ WhiteSpace ~ Operand ~ EOL
+  }
+
+
+  def PlusExpression: Rule1[AstNode] = rule {
+    PlusOperator ~ WhiteSpace ~ Operand ~ EOL
+  }
+
+  def MinusExpression: Rule1[AstNode] = rule {
+    MinusOperator ~ WhiteSpace ~ Operand ~ EOL
+  }
+
+  def MultiplicationExpression: Rule1[AstNode] = rule {
+    MultiplicationOperator ~ WhiteSpace ~ Operand ~ EOL
+  }
+
+  def DivisionExpression: Rule1[AstNode] = rule {
+    DivisionOperator ~ WhiteSpace ~ Operand ~ EOL
+  }
+
+  def ModuloExpression: Rule1[AstNode] = rule {
+    Modulo ~ WhiteSpace ~ Operand ~ EOL
+  }
+
+  def Variable: Rule1[VariableNode] = rule {
+    VariableName ~> VariableNode
+  }
