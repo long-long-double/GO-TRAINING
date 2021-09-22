@@ -81,3 +81,48 @@ object Declaimer {
       declaim(expr1)
       say(p.Or)
       declaim(expr2)
+    case PlusExpressionNode(expr1, expr2) =>
+      declaim(expr1)
+      say(p.PlusOperator)
+      declaim(expr2)
+    case MinusExpressionNode(expr1, expr2) =>
+      declaim(expr1)
+      say(p.MinusOperator)
+      declaim(expr2)
+    case DivisionExpressionNode(expr1, expr2) =>
+      declaim(expr1)
+      say(p.DivisionOperator)
+      declaim(expr2)
+    case MultiplicationExpressionNode(expr1, expr2) =>
+      declaim(expr1)
+      say(p.MultiplicationOperator)
+      declaim(expr2)
+    case ModuloExpressionNode(expr1, expr2) =>
+      declaim(expr1)
+      say(p.Modulo)
+      declaim(expr2)
+    case GreaterThanNode(expr1, expr2) =>
+      declaim(expr1)
+      say(p.GreaterThan)
+      declaim(expr2)
+    case EqualToNode(expr1, expr2) =>
+      declaim(expr1)
+      say(p.EqualTo)
+      declaim(expr2)
+
+    case NumberNode(num)    => say(num.toString)
+    case StringNode(str)    => say(str)
+    case VariableNode(name) => say(name)
+
+    case other              => say(s"${p.ParseError} $other")
+  }
+
+}
+
+object SpeechUtils {
+  System.setProperty("freetts.voices",
+    "com.sun.speech.freetts.en.us.cmu_us_kal.KevinVoiceDirectory")
+
+  val desc = new SynthesizerModeDesc(Locale.US)
+
+  Central.registerEngineCentral("com.sun.speech.freetts.jsapi.FreeTTSEngineCentral")
