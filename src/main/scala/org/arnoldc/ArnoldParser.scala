@@ -176,3 +176,34 @@ class ArnoldParser extends Parser {
   def Variable: Rule1[VariableNode] = rule {
     VariableName ~> VariableNode
   }
+
+  def VariableName: Rule0 = rule {
+    rule("A" - "Z" | "a" - "z") ~ zeroOrMore("A" - "Z" | "a" - "z" | "0" - "9")
+  }
+
+  def Number: Rule1[NumberNode] = rule {
+    oneOrMore("0" - "9") ~> ((matched: String) => NumberNode(matched.toInt)) |
+      "-" ~ oneOrMore("0" - "9") ~> ((matched: String) => NumberNode(-matched.toInt))
+  }
+
+  def Boolean: Rule1[NumberNode] = rule {
+    "@" ~ True ~> (_ => NumberNode(1)) |
+      "@" ~ False ~> (_ => NumberNode(0))
+  }
+
+  def String: Rule1[StringNode] = rule {
+    zeroOrMore(rule {
+      !anyOf("\"\\") ~ ANY
+    }) ~> StringNode
+  }
+
+  def parse(expression: String): RootNode = {
+    val parsingResult = ReportingParseRunner(Root).run(expression)
+    parsingResult.result match {
+      case Some(root) => root
+      case None => throw new ParsingException(ParseError + ":\n" +
+        ErrorUtils.printParseErrors(parsingResult))
+    }
+  }
+
+}
