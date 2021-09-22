@@ -126,3 +126,35 @@ object SpeechUtils {
   val desc = new SynthesizerModeDesc(Locale.US)
 
   Central.registerEngineCentral("com.sun.speech.freetts.jsapi.FreeTTSEngineCentral")
+
+  val synthesizer = Central.createSynthesizer(desc)
+  synthesizer.allocate()
+  synthesizer.resume()
+
+  val smd = synthesizer.getEngineModeDesc().asInstanceOf[SynthesizerModeDesc]
+  val voices = smd.getVoices()
+
+  var voice: Voice = null
+
+  def init(voiceName: String, outputFile: String) {
+    for (v <- voices) {
+      if (v.getName().equals(voiceName)) {
+        voice = v
+        val audioPlayer = new SingleFileAudioPlayer(outputFile, Type.WAVE);
+        voice.asInstanceOf[com.sun.speech.freetts.jsapi.FreeTTSVoice].getVoice.setAudioPlayer(audioPlayer)
+        synthesizer.getSynthesizerProperties().setVoice(voice);
+        return
+      }
+    }
+  }
+
+  def terminate() = {
+    synthesizer.deallocate()
+  }
+
+  def doSpeak(speakText: String) {
+    //println(speakText)
+    synthesizer.speakPlainText(speakText, null);
+    synthesizer.waitEngineState(Synthesizer.QUEUE_EMPTY);
+  }
+}  
