@@ -1,4 +1,4 @@
 package org.arnoldc
 
 
-case class Metho
+case class MethodInformation(returnsValue: Boolean, numberOfArguments
