@@ -48,3 +48,34 @@ case class SymbolTable(upperLevel: Option[SymbolTable], currentMethod: String) {
     if (methodName.equals("main")) {
       "([Ljava/lang/String;)V"
     }
+    else {
+      val method = getMethodInformation(methodName)
+      val numberOfArguments = method.numberOfArguments
+      val returnValue = if (method.returnsValue) "I" else "V"
+      "(" + "I" * numberOfArguments + ")" + returnValue
+    }
+  }
+
+  def getCurrentMethod(): MethodInformation = {
+    getMethodInformation(currentMethod)
+  }
+
+  def getMethodInformation(methodName: String): MethodInformation = {
+    methodTable.getOrElse(methodName, {
+      if (upperLevel.isEmpty) {
+        throw new ParsingException("METHOD: " + methodName + " NOT DECLARED!")
+      }
+      upperLevel.get.getMethodInformation(methodName)
+    })
+  }
+
+  def getFileName(): String = {
+    if (upperLevel.isEmpty) {
+      currentMethod
+    }
+    else {
+      upperLevel.get.getFileName()
+    }
+  }
+
+}
