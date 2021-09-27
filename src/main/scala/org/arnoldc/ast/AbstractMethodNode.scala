@@ -1,3 +1,4 @@
 package org.arnoldc.ast
 
-abstract class AbstractMethodNode exten
+abstract class AbstractMethodNode extends AstNode {
+  val statements: List[StatementNode]
