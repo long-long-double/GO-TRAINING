@@ -6,4 +6,7 @@ abstract class AbstractMethodNode extends AstNode {
   val methodName: String
   val returnsValue: Boolean
 
-  def signature = MethodSignature(methodN
+  def signature = MethodSignature(methodName, arguments, returnsValue)
+}
+
+case class Meth
