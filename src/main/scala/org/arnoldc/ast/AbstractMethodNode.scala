@@ -9,4 +9,4 @@ abstract class AbstractMethodNode extends AstNode {
   def signature = MethodSignature(methodName, arguments, returnsValue)
 }
 
-case class MethodSignature(name: String, args: List[VariableNode], returnsVal
+case class MethodSignature(name: String, args: List[VariableNode], returnsValue: Boolean)
