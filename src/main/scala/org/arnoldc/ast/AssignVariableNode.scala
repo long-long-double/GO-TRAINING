@@ -5,4 +5,5 @@ import org.arnoldc.SymbolTable
 import org.objectweb.asm.Opcodes._
 
 case class AssignVariableNode(variable: String, expression: AstNode) extends StatementNode {
-  def generate(mv: MethodVi
+  def generate(mv: MethodVisitor, symbolTable: SymbolTable) {
+    val variable
