@@ -9,4 +9,5 @@ case class AssignVariableNode(variable: String, expression: AstNode) extends Sta
     val variableAddress = symbolTable.getVariableAddress(variable)
     expression.generate(mv, symbolTable)
     mv.visitVarInsn(ISTORE, variableAddress)
- 
+  }
+}
