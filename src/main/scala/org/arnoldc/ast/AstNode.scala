@@ -6,4 +6,5 @@ import org.objectweb.asm.commons.{GeneratorAdapter, Method}
 import org.arnoldc.SymbolTable
 
 abstract class AstNode {
-  def generate(mv: MethodVisitor, symbolTable: SymbolTabl
+  def generate(mv: MethodVisitor, symbolTable: SymbolTable)
+}
