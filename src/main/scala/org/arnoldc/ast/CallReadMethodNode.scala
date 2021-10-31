@@ -6,4 +6,6 @@ import org.arnoldc.SymbolTable
 
 case class CallReadMethodNode(returnVar: String) extends StatementNode{
   def generate(mv: MethodVisitor, symbolTable: SymbolTable) = {
-    mv.visitTypeInsn(NEW, "java/util/Scanne
+    mv.visitTypeInsn(NEW, "java/util/Scanner");
+    mv.visitInsn(DUP);
+    mv.visitFieldInsn(GETSTATI
