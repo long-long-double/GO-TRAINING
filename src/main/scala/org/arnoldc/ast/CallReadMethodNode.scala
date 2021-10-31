@@ -8,4 +8,4 @@ case class CallReadMethodNode(returnVar: String) extends StatementNode{
   def generate(mv: MethodVisitor, symbolTable: SymbolTable) = {
     mv.visitTypeInsn(NEW, "java/util/Scanner");
     mv.visitInsn(DUP);
-    mv.visitFieldInsn(GETSTATI
+    mv.visitFieldInsn(GETSTATIC, "java/lang/System", "in", "Ljava/io/InputSt
