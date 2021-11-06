@@ -10,4 +10,5 @@ case class CallReadMethodNode(returnVar: String) extends StatementNode{
     mv.visitInsn(DUP);
     mv.visitFieldInsn(GETSTATIC, "java/lang/System", "in", "Ljava/io/InputStream;")
     mv.visitMethodInsn(INVOKESPECIAL, "java/util/Scanner", "<init>", "(Ljava/io/InputStream;)V");
-    mv.visitMethodInsn(INVOKEVIRTUAL, "java/u
+    mv.visitMethodInsn(INVOKEVIRTUAL, "java/util/Scanner", "nextInt", "()I")
+    mv.visitVa
