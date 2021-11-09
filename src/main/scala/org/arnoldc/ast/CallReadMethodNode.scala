@@ -11,4 +11,6 @@ case class CallReadMethodNode(returnVar: String) extends StatementNode{
     mv.visitFieldInsn(GETSTATIC, "java/lang/System", "in", "Ljava/io/InputStream;")
     mv.visitMethodInsn(INVOKESPECIAL, "java/util/Scanner", "<init>", "(Ljava/io/InputStream;)V");
     mv.visitMethodInsn(INVOKEVIRTUAL, "java/util/Scanner", "nextInt", "()I")
-    mv.visitVarInsn(ISTORE, symbolTable.getVariableAddress(returnV
+    mv.visitVarInsn(ISTORE, symbolTable.getVariableAddress(returnVar))
+  }
+}
