@@ -6,4 +6,6 @@ import org.objectweb.asm.Opcodes._
 import org.parboiled.errors.ParsingException
 
 
-case class DeclareIntNode(variable: String, value: OperandNode) extends S
+case class DeclareIntNode(variable: String, value: OperandNode) extends StatementNode {
+
+  def generate(mv: Method
