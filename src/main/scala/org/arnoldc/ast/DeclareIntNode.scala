@@ -8,4 +8,5 @@ import org.parboiled.errors.ParsingException
 
 case class DeclareIntNode(variable: String, value: OperandNode) extends StatementNode {
 
-  def generate(mv: Method
+  def generate(mv: MethodVisitor, symbolTable: SymbolTable) = {
+    symbolTab
