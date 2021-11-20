@@ -6,4 +6,4 @@ import org.objectweb.asm.Opcodes._
 import org.parboiled.errors.ParsingException
 
 
-case class Declar
+case class DeclareIntNode(variable: String, value: OperandNode) extends S
