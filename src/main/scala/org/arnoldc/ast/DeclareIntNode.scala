@@ -11,4 +11,5 @@ case class DeclareIntNode(variable: String, value: OperandNode) extends Statemen
   def generate(mv: MethodVisitor, symbolTable: SymbolTable) = {
     symbolTable.putVariable(variable)
     value.generate(mv, symbolTable)
-    if (value.isInstanceOf[NumberNode] || valu
+    if (value.isInstanceOf[NumberNode] || value.isInstanceOf[VariableNode]) {
+    
