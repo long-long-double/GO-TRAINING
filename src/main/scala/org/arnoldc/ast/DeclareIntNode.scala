@@ -12,4 +12,6 @@ case class DeclareIntNode(variable: String, value: OperandNode) extends Statemen
     symbolTable.putVariable(variable)
     value.generate(mv, symbolTable)
     if (value.isInstanceOf[NumberNode] || value.isInstanceOf[VariableNode]) {
-      mv.visitVarInsn(ISTORE, symbolTable.ge
+      mv.visitVarInsn(ISTORE, symbolTable.getVariableAddress(variable))
+    }
+    else thr
