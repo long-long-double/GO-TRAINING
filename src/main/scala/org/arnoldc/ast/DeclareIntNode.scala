@@ -14,4 +14,4 @@ case class DeclareIntNode(variable: String, value: OperandNode) extends Statemen
     if (value.isInstanceOf[NumberNode] || value.isInstanceOf[VariableNode]) {
       mv.visitVarInsn(ISTORE, symbolTable.getVariableAddress(variable))
     }
-    else thr
+    else throw new ParsingException("CANNOT INITIALIZE 
