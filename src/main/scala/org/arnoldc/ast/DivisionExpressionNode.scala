@@ -4,4 +4,5 @@ import org.objectweb.asm.MethodVisitor
 import org.objectweb.asm.Opcodes._
 import org.arnoldc.SymbolTable
 
-case class DivisionExpressionNode(expre
+case class DivisionExpressionNode(expression: AstNode ,operand: AstNode ) extends AstNode{
+ 
