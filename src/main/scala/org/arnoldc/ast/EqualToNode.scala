@@ -6,4 +6,6 @@ import org.objectweb.asm.Label
 import org.arnoldc.SymbolTable
 
 case class EqualToNode(operand1: AstNode, operand2: AstNode) extends ExpressionNode {
-  def generate(mv
+  def generate(mv: MethodVisitor, symbolTable: SymbolTable) {
+
+   
