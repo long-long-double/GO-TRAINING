@@ -5,4 +5,4 @@ import org.objectweb.asm.Opcodes._
 import org.objectweb.asm.Label
 import org.arnoldc.SymbolTable
 
-case 
+case class EqualToNode(operand1: AstNode, operand2
