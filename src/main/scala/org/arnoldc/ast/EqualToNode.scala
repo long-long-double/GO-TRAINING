@@ -8,4 +8,5 @@ import org.arnoldc.SymbolTable
 case class EqualToNode(operand1: AstNode, operand2: AstNode) extends ExpressionNode {
   def generate(mv: MethodVisitor, symbolTable: SymbolTable) {
 
-   
+    val notEqual = new Label()
+    val concl
