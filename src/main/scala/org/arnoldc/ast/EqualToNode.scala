@@ -9,4 +9,5 @@ case class EqualToNode(operand1: AstNode, operand2: AstNode) extends ExpressionN
   def generate(mv: MethodVisitor, symbolTable: SymbolTable) {
 
     val notEqual = new Label()
-    val concl
+    val conclude = new Label()
+    operand1.generate(mv
