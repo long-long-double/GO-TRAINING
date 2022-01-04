@@ -12,4 +12,5 @@ case class EqualToNode(operand1: AstNode, operand2: AstNode) extends ExpressionN
     val conclude = new Label()
     operand1.generate(mv, symbolTable)
     operand2.generate(mv, symbolTable)
-    mv.v
+    mv.visitJumpInsn(IF_ICMPNE, notEqual)
+    mv.visitInsn(ICONST_1)
