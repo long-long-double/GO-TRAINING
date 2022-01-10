@@ -14,3 +14,5 @@ case class EqualToNode(operand1: AstNode, operand2: AstNode) extends ExpressionN
     operand2.generate(mv, symbolTable)
     mv.visitJumpInsn(IF_ICMPNE, notEqual)
     mv.visitInsn(ICONST_1)
+    mv.visitJumpInsn(GOTO, conclude)
+    mv.v
