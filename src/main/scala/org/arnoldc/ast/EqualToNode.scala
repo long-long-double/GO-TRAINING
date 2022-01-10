@@ -15,4 +15,5 @@ case class EqualToNode(operand1: AstNode, operand2: AstNode) extends ExpressionN
     mv.visitJumpInsn(IF_ICMPNE, notEqual)
     mv.visitInsn(ICONST_1)
     mv.visitJumpInsn(GOTO, conclude)
-    mv.v
+    mv.visitLabel(notEqual)
+    mv.visitFrame(F_FULL, symbo
