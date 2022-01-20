@@ -1,3 +1,7 @@
 package org.arnoldc.ast
 
-abstract class ExpressionNode extends AstNode 
+abstract class ExpressionNode extends AstNode {
+
+}
+
+
