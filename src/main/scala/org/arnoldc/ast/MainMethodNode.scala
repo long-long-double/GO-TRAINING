@@ -17,3 +17,6 @@ case class MainMethodNode(statements: List[StatementNode]) extends AbstractMetho
     mv.visitInsn(RETURN)
     mv.visitMaxs(100, 100)
     mv.visitEnd()
+  }
+
+}
