@@ -2,4 +2,7 @@ package org.arnoldc.ast
 
 import org.objectweb.asm.MethodVisitor
 import org.objectweb.asm.Opcodes._
-import org.arnold
+import org.arnoldc.SymbolTable
+
+
+case class ModuloExpressionNode(expr
