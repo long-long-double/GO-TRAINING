@@ -5,4 +5,4 @@ import org.objectweb.asm.Opcodes._
 import org.arnoldc.SymbolTable
 
 
-case class ModuloExpressionNode(expr
+case class ModuloExpressionNode(expression: AstNode ,operand: AstNode ) 
