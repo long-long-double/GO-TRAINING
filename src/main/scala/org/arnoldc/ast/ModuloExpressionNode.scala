@@ -7,4 +7,5 @@ import org.arnoldc.SymbolTable
 
 case class ModuloExpressionNode(expression: AstNode ,operand: AstNode ) extends AstNode {
   def generate(mv: MethodVisitor, symbolTable: SymbolTable) {
-    expression.ge
+    expression.generate(mv, symbolTable)
+    operand.generate(mv, sym
