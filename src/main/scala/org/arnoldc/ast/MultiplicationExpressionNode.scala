@@ -1,3 +1,4 @@
 package org.arnoldc.ast
 
-import org.objectweb.as
+import org.objectweb.asm.MethodVisitor
+import org.objectweb.asm.Opco
