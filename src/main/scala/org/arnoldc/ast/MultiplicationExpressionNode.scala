@@ -5,4 +5,5 @@ import org.objectweb.asm.Opcodes._
 import org.arnoldc.SymbolTable
 
 case class MultiplicationExpressionNode(expression: AstNode ,operand: AstNode ) extends AstNode{
-  def generate(mv: M
+  def generate(mv: MethodVisitor, symbolTable: SymbolTable) {
+    express
