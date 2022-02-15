@@ -4,4 +4,4 @@ import org.objectweb.asm.MethodVisitor
 import org.objectweb.asm.Opcodes._
 import org.arnoldc.SymbolTable
 
-case cl
+case class MultiplicationExpressionNode(expression: AstN
