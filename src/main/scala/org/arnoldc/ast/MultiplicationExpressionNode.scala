@@ -7,4 +7,7 @@ import org.arnoldc.SymbolTable
 case class MultiplicationExpressionNode(expression: AstNode ,operand: AstNode ) extends AstNode{
   def generate(mv: MethodVisitor, symbolTable: SymbolTable) {
     expression.generate(mv, symbolTable)
-    operand.generate(m
+    operand.generate(mv, symbolTable)
+    mv.visitInsn(IMUL)
+  }
+}
