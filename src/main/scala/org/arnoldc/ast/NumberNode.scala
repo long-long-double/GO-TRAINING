@@ -9,3 +9,4 @@ case class NumberNode(number: Int) extends OperandNode {
   def generate(mv: MethodVisitor, symbolTable: SymbolTable) {
     mv.visitIntInsn(SIPUSH, number)
   }
+}
