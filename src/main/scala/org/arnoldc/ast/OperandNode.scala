@@ -1,3 +1,5 @@
 package org.arnoldc.ast
 
-abstract class OperandNode extend
+abstract class OperandNode extends AstNode {
+
+}
