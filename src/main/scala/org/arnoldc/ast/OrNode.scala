@@ -5,4 +5,5 @@ import org.objectweb.asm.Opcodes._
 import org.arnoldc.SymbolTable
 
 
-case class OrNode(expression: Ast
+case class OrNode(expression: AstNode, operand: AstNode) extends ExpressionNode {
+  d
