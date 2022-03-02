@@ -6,4 +6,4 @@ import org.arnoldc.SymbolTable
 
 
 case class OrNode(expression: AstNode, operand: AstNode) extends ExpressionNode {
-  d
+  def generate(mv: MethodVisitor, symbolTabl
