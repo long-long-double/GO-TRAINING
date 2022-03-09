@@ -12,4 +12,5 @@ case class OrNode(expression: AstNode, operand: AstNode) extends ExpressionNode 
     val conclude = new Label()
     expression.generate(mv, symbolTable)
     mv.visitJumpInsn(IFNE, eitherTrue)
-    operand.gener
+    operand.generate(mv, symbolTable)
+    mv.visitJumpInsn(IFNE, eithe
