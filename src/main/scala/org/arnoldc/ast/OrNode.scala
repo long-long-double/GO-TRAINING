@@ -13,4 +13,7 @@ case class OrNode(expression: AstNode, operand: AstNode) extends ExpressionNode 
     expression.generate(mv, symbolTable)
     mv.visitJumpInsn(IFNE, eitherTrue)
     operand.generate(mv, symbolTable)
-    mv.visitJumpInsn(IFNE, eithe
+    mv.visitJumpInsn(IFNE, eitherTrue)
+
+    //both false
+    mv.visitInsn(ICONST_
