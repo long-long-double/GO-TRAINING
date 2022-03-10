@@ -16,4 +16,7 @@ case class OrNode(expression: AstNode, operand: AstNode) extends ExpressionNode 
     mv.visitJumpInsn(IFNE, eitherTrue)
 
     //both false
-    mv.visitInsn(ICONST_
+    mv.visitInsn(ICONST_0)
+    mv.visitJumpInsn(GOTO, conclude)
+
+    //eith
