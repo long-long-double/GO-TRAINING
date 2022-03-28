@@ -21,4 +21,4 @@ case class OrNode(expression: AstNode, operand: AstNode) extends ExpressionNode 
 
     //either true
     mv.visitLabel(eitherTrue)
-    mv.visitFram
+    mv.visitFrame(Opcodes.F_FULL, symbolTable.size(), symbolTabl
