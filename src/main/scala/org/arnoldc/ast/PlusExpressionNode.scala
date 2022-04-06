@@ -8,4 +8,6 @@ case class PlusExpressionNode(expression: AstNode ,operand: AstNode ) extends As
   def generate(mv: MethodVisitor, symbolTable: SymbolTable) {
     expression.generate(mv, symbolTable)
     operand.generate(mv, symbolTable)
-    mv.vis
+    mv.visitInsn(IADD)
+  }
+}
