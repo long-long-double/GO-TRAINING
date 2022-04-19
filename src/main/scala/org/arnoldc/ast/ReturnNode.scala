@@ -6,4 +6,5 @@ import org.arnoldc.SymbolTable
 import org.parboiled.errors.ParsingException
 
 
-case class ReturnNode(operand: Op
+case class ReturnNode(operand: Option[OperandNode]) extends StatementNode {
+  def generate(m
