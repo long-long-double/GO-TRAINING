@@ -7,4 +7,6 @@ import org.parboiled.errors.ParsingException
 
 
 case class ReturnNode(operand: Option[OperandNode]) extends StatementNode {
-  def generate(mv: MethodVisitor, symbolTable: SymbolTab
+  def generate(mv: MethodVisitor, symbolTable: SymbolTable) {
+    if (operand.isEmpty) {
+      if (symbolTab
