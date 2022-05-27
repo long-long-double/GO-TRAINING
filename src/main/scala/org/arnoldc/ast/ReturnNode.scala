@@ -10,4 +10,4 @@ case class ReturnNode(operand: Option[OperandNode]) extends StatementNode {
   def generate(mv: MethodVisitor, symbolTable: SymbolTable) {
     if (operand.isEmpty) {
       if (symbolTable.getCurrentMethod().returnsValue) {
-        throw new ParsingException("NON VOID METHOD: " 
+        throw new ParsingException("NON VOID METHOD: " + symbolTable.currentMethod + " MUST RETUR
