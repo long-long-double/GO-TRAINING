@@ -13,4 +13,7 @@ case class ReturnNode(operand: Option[OperandNode]) extends StatementNode {
         throw new ParsingException("NON VOID METHOD: " + symbolTable.currentMethod + " MUST RETURN AN ARGUMENT")
       }
       mv.visitInsn(RETURN)
-      mv.visitFrame(F_SAME, 0, n
+      mv.visitFrame(F_SAME, 0, null, 0, null)
+    }
+    else {
+      if (!symbol
