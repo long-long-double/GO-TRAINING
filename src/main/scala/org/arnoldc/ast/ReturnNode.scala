@@ -17,4 +17,4 @@ case class ReturnNode(operand: Option[OperandNode]) extends StatementNode {
     }
     else {
       if (!symbolTable.getCurrentMethod().returnsValue) {
-        throw new ParsingException("VOID METHOD: " + symbol
+        throw new ParsingException("VOID METHOD: " + symbolTable.currentMethod + " CANNOT RETURN AN ARGUMENT
