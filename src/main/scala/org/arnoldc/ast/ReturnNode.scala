@@ -16,4 +16,5 @@ case class ReturnNode(operand: Option[OperandNode]) extends StatementNode {
       mv.visitFrame(F_SAME, 0, null, 0, null)
     }
     else {
-      if (!symbol
+      if (!symbolTable.getCurrentMethod().returnsValue) {
+        t
