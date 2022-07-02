@@ -21,4 +21,9 @@ case class ReturnNode(operand: Option[OperandNode]) extends StatementNode {
       }
       operand.get.generate(mv, symbolTable)
       mv.visitInsn(IRETURN)
-      mv.v
+      mv.visitFrame(F_SAME, 0, null, 0, null)
+
+    }
+  }
+}
+
