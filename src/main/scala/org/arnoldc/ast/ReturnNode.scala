@@ -20,3 +20,5 @@ case class ReturnNode(operand: Option[OperandNode]) extends StatementNode {
         throw new ParsingException("VOID METHOD: " + symbolTable.currentMethod + " CANNOT RETURN AN ARGUMENT")
       }
       operand.get.generate(mv, symbolTable)
+      mv.visitInsn(IRETURN)
+      mv.v
