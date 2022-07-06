@@ -7,4 +7,5 @@ import org.arnoldc.{MethodInformation, SymbolTable}
 case class RootNode(methods: List[AbstractMethodNode]) extends AstNode {
 
   def generateByteCode(filename: String): Array[Byte] = {
-    val globalSymbols = storeMe
+    val globalSymbols = storeMethodSignatures(filename)
+    generateClass(f
