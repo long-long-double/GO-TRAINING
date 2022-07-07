@@ -8,4 +8,7 @@ case class RootNode(methods: List[AbstractMethodNode]) extends AstNode {
 
   def generateByteCode(filename: String): Array[Byte] = {
     val globalSymbols = storeMethodSignatures(filename)
-    generateClass(f
+    generateClass(filename, globalSymbols).toByteArray
+  }
+
+  
