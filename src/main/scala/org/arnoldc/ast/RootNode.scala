@@ -11,4 +11,8 @@ case class RootNode(methods: List[AbstractMethodNode]) extends AstNode {
     generateClass(filename, globalSymbols).toByteArray
   }
 
-  def generate(mv: MethodVisitor, symbolTable: Sym
+  def generate(mv: MethodVisitor, symbolTable: SymbolTable) {
+  }
+
+
+  def storeMethodSignatures(
