@@ -15,4 +15,5 @@ case class RootNode(methods: List[AbstractMethodNode]) extends AstNode {
   }
 
 
-  def storeMethodSignatures(
+  def storeMethodSignatures(filename: String) = {
+    def storeTo(symb
