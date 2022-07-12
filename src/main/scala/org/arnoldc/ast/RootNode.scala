@@ -19,4 +19,5 @@ case class RootNode(methods: List[AbstractMethodNode]) extends AstNode {
     def storeTo(symbols: SymbolTable)(s: MethodSignature) = {
       symbols.putMethod(s.name, new MethodInformation(s.returnsValue, s.args.size))
     }
-    val globalSymb
+    val globalSymbols = new SymbolTable(None, filename)
+    val met
