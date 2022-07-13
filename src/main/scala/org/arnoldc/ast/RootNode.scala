@@ -20,4 +20,5 @@ case class RootNode(methods: List[AbstractMethodNode]) extends AstNode {
       symbols.putMethod(s.name, new MethodInformation(s.returnsValue, s.args.size))
     }
     val globalSymbols = new SymbolTable(None, filename)
-    val met
+    val methodSignatures = methods.map(_.signature)
+    met
