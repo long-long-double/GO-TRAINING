@@ -26,4 +26,6 @@ case class RootNode(methods: List[AbstractMethodNode]) extends AstNode {
   }
 
   def generateClass(className: String, globalSymbols: SymbolTable): ClassWriter = {
-    va
+    val cw = new ClassWriter(0)
+    def generateClassHeader() = {
+     
