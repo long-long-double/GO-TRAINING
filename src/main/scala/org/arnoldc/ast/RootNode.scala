@@ -22,4 +22,7 @@ case class RootNode(methods: List[AbstractMethodNode]) extends AstNode {
     val globalSymbols = new SymbolTable(None, filename)
     val methodSignatures = methods.map(_.signature)
     methodSignatures.foreach(storeTo(globalSymbols))
-    globalSy
+    globalSymbols
+  }
+
+  def generateClass(className: String, gl
