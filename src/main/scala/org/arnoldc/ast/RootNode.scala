@@ -25,4 +25,5 @@ case class RootNode(methods: List[AbstractMethodNode]) extends AstNode {
     globalSymbols
   }
 
-  def generateClass(className: String, gl
+  def generateClass(className: String, globalSymbols: SymbolTable): ClassWriter = {
+    va
