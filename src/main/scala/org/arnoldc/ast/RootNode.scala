@@ -30,4 +30,6 @@ case class RootNode(methods: List[AbstractMethodNode]) extends AstNode {
     def generateClassHeader() = {
       cw.visit(V1_7, ACC_PUBLIC + ACC_SUPER, className, null, "java/lang/Object", null)
       cw.visitSource("Hello.java", null)
-      val mv = cw.visitMethod(ACC_PUBLIC, "<init>", "()V", null, 
+      val mv = cw.visitMethod(ACC_PUBLIC, "<init>", "()V", null, null)
+      mv.visitVarInsn(ALOAD, 0)
+     
