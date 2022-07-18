@@ -32,4 +32,5 @@ case class RootNode(methods: List[AbstractMethodNode]) extends AstNode {
       cw.visitSource("Hello.java", null)
       val mv = cw.visitMethod(ACC_PUBLIC, "<init>", "()V", null, null)
       mv.visitVarInsn(ALOAD, 0)
-     
+      mv.visitMethodInsn(INVOKESPECIAL,
+        "java/lan
