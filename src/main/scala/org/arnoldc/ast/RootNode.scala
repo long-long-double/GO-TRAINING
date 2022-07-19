@@ -36,4 +36,6 @@ case class RootNode(methods: List[AbstractMethodNode]) extends AstNode {
         "java/lang/Object",
         "<init>",
         "()V")
+      mv.visitInsn(RETURN)
+      mv.visitMaxs(100, 100)
  
