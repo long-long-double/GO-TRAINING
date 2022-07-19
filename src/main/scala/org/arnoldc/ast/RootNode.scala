@@ -38,4 +38,7 @@ case class RootNode(methods: List[AbstractMethodNode]) extends AstNode {
         "()V")
       mv.visitInsn(RETURN)
       mv.visitMaxs(100, 100)
- 
+      mv.visitEnd()
+      mv
+    }
+    def 
