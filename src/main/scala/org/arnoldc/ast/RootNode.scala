@@ -41,4 +41,4 @@ case class RootNode(methods: List[AbstractMethodNode]) extends AstNode {
       mv.visitEnd()
       mv
     }
-    def 
+    def generateClassBody(methodVisitor: MethodVisitor) = {
