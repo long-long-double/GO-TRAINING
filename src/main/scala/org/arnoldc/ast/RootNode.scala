@@ -42,4 +42,5 @@ case class RootNode(methods: List[AbstractMethodNode]) extends AstNode {
       mv
     }
     def generateClassBody(methodVisitor: MethodVisitor) = {
-      def generateBytecode(method: AbstractMe
+      def generateBytecode(method: AbstractMethodNode) {
+        method.generate(cw.vi
