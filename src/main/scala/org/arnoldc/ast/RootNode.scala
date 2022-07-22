@@ -46,4 +46,6 @@ case class RootNode(methods: List[AbstractMethodNode]) extends AstNode {
         method.generate(cw.visitMethod(ACC_PUBLIC + ACC_STATIC,
           method.methodName,
           globalSymbols.getMethodDescription(method.methodName), null, null),
-         
+          globalSymbols)
+      }
+      methods.foreach(ge
