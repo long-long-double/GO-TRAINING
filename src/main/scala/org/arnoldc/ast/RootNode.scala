@@ -44,4 +44,5 @@ case class RootNode(methods: List[AbstractMethodNode]) extends AstNode {
     def generateClassBody(methodVisitor: MethodVisitor) = {
       def generateBytecode(method: AbstractMethodNode) {
         method.generate(cw.visitMethod(ACC_PUBLIC + ACC_STATIC,
-          me
+          method.methodName,
+          globalSymbols.getMethodDescri
