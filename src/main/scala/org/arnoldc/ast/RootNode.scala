@@ -45,4 +45,5 @@ case class RootNode(methods: List[AbstractMethodNode]) extends AstNode {
       def generateBytecode(method: AbstractMethodNode) {
         method.generate(cw.visitMethod(ACC_PUBLIC + ACC_STATIC,
           method.methodName,
-          globalSymbols.getMethodDescri
+          globalSymbols.getMethodDescription(method.methodName), null, null),
+         
