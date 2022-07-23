@@ -48,4 +48,6 @@ case class RootNode(methods: List[AbstractMethodNode]) extends AstNode {
           globalSymbols.getMethodDescription(method.methodName), null, null),
           globalSymbols)
       }
-      methods.foreach(ge
+      methods.foreach(generateBytecode)
+    }
+    val methodVisitor = gener
