@@ -51,4 +51,9 @@ case class RootNode(methods: List[AbstractMethodNode]) extends AstNode {
       methods.foreach(generateBytecode)
     }
     val methodVisitor = generateClassHeader()
-    generateClassBody(methodVisit
+    generateClassBody(methodVisitor)
+    cw
+  }
+
+
+}
