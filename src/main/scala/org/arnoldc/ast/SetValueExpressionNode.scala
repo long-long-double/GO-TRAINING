@@ -6,4 +6,6 @@ import org.arnoldc.SymbolTable
 
 case class SetValueExpressionNode(operand: OperandNode) extends ExpressionNode{
   def generate(mv: MethodVisitor, symbolTable: SymbolTable) {
-    operand.generate(mv, symbolT
+    operand.generate(mv, symbolTable)
+  }
+}
