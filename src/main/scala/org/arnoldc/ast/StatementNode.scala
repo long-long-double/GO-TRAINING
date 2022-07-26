@@ -1,3 +1,3 @@
 package org.arnoldc.ast
 
-abstract class S
+abstract class StatementNode extends AstNode
