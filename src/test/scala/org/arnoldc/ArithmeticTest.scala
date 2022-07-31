@@ -78,3 +78,50 @@ class ArithmeticTest extends ArnoldGeneratorTest {
         "TALK TO THE HAND a\n" +
         "TALK TO THE HAND b\n" +
         "YOU HAVE BEEN TERMINATED\n"
+    getOutput(code) should equal("-999\n-555\n")
+  }
+
+  it should "evaluate when assigning a variable" in {
+    val code =
+      "IT'S SHOWTIME\n" +
+        "HEY CHRISTMAS TREE var\n" +
+        "YOU SET US UP 22\n" +
+        "GET TO THE CHOPPER var\n" +
+        "HERE IS MY INVITATION 123\n" +
+        "ENOUGH TALK\n" +
+        "TALK TO THE HAND var\n" +
+        "YOU HAVE BEEN TERMINATED\n"
+
+    getOutput(code) should equal("123\n")
+  }
+
+
+  it should "evaluate when assigning multiple variables " in {
+    val code =
+      "IT'S SHOWTIME\n" +
+        "HEY CHRISTMAS TREE var\n" +
+        "YOU SET US UP 22\n" +
+        "HEY CHRISTMAS TREE var2\n" +
+        "YOU SET US UP 27\n" +
+        "GET TO THE CHOPPER var\n" +
+        "HERE IS MY INVITATION 123\n" +
+        "ENOUGH TALK\n" +
+        "GET TO THE CHOPPER var2\n" +
+        "HERE IS MY INVITATION 707\n" +
+        "ENOUGH TALK\n" +
+        "GET TO THE CHOPPER var\n" +
+        "HERE IS MY INVITATION var2\n" +
+        "GET UP var\n" +
+        "ENOUGH TALK\n" +
+        "TALK TO THE HAND var\n" +
+        "YOU HAVE BEEN TERMINATED\n"
+
+    getOutput(code) should equal("830\n")
+  }
+
+  it should "evaluate when an integer is incremented and printed" in {
+    val code =
+      "IT'S SHOWTIME\n" +
+        "HEY CHRISTMAS TREE VAR\n" +
+        "YOU SET US UP 22\n" +
+        "GET TO THE CHOPPER VAR\n" +
