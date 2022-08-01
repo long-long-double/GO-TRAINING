@@ -164,3 +164,49 @@ class ArithmeticTest extends ArnoldGeneratorTest {
 
   it should "evaluate when an integer is incremented with a negative value" in {
     val code =
+      "IT'S SHOWTIME\n" +
+        "HEY CHRISTMAS TREE VAR\n" +
+        "YOU SET US UP 22\n" +
+        "GET TO THE CHOPPER VAR\n" +
+        "HERE IS MY INVITATION VAR\n" +
+        "GET UP -44\n" +
+        "ENOUGH TALK\n" +
+        "TALK TO THE HAND VAR\n" +
+        "YOU HAVE BEEN TERMINATED\n"
+    getOutput(code) should equal("-22\n")
+  }
+
+  it should "evaluate when multiplying variables" in {
+    val code =
+      "IT'S SHOWTIME\n" +
+        "HEY CHRISTMAS TREE VAR\n" +
+        "YOU SET US UP 22\n" +
+        "GET TO THE CHOPPER VAR\n" +
+        "HERE IS MY INVITATION VAR\n" +
+        "YOU'RE FIRED 13\n" +
+        "ENOUGH TALK\n" +
+        "TALK TO THE HAND VAR\n" +
+        "YOU HAVE BEEN TERMINATED\n"
+    getOutput(code) should equal("286\n")
+  }
+
+  it should "evaluate when multiplying variables with different signs" in {
+    val code =
+      "IT'S SHOWTIME\n" +
+        "HEY CHRISTMAS TREE VAR\n" +
+        "YOU SET US UP 22\n" +
+        "GET TO THE CHOPPER VAR\n" +
+        "HERE IS MY INVITATION VAR\n" +
+        "YOU'RE FIRED -13\n" +
+        "ENOUGH TALK\n" +
+        "TALK TO THE HAND VAR\n" +
+        "YOU HAVE BEEN TERMINATED\n"
+    getOutput(code) should equal("-286\n")
+  }
+
+  it should "evaluate when multiplying variables with zero" in {
+    val code =
+      "IT'S SHOWTIME\n" +
+        "HEY CHRISTMAS TREE VAR\n" +
+        "YOU SET US UP 22\n" +
+        "GET TO THE CHOPPER VAR\n" +
