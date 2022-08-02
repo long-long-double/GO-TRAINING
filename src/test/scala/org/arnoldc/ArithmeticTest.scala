@@ -210,3 +210,46 @@ class ArithmeticTest extends ArnoldGeneratorTest {
         "HEY CHRISTMAS TREE VAR\n" +
         "YOU SET US UP 22\n" +
         "GET TO THE CHOPPER VAR\n" +
+        "HERE IS MY INVITATION VAR\n" +
+        "YOU'RE FIRED 0\n" +
+        "ENOUGH TALK\n" +
+        "TALK TO THE HAND VAR\n" +
+        "YOU HAVE BEEN TERMINATED\n"
+    getOutput(code) should equal("0\n")
+  }
+
+  it should "evaluate when multiplying assigned variables" in {
+    val code =
+      "IT'S SHOWTIME\n" +
+        "HEY CHRISTMAS TREE VAR\n" +
+        "YOU SET US UP 7\n" +
+        "HEY CHRISTMAS TREE VAR2\n" +
+        "YOU SET US UP 4\n" +
+        "GET TO THE CHOPPER VAR\n" +
+        "HERE IS MY INVITATION VAR\n" +
+        "YOU'RE FIRED VAR2\n" +
+        "ENOUGH TALK\n" +
+        "TALK TO THE HAND VAR\n" +
+        "YOU HAVE BEEN TERMINATED\n"
+    getOutput(code) should equal("28\n")
+  }
+
+  it should "evaluate when dividing variables" in {
+    val code =
+      "IT'S SHOWTIME\n" +
+        "HEY CHRISTMAS TREE VAR\n" +
+        "YOU SET US UP 100\n" +
+        "GET TO THE CHOPPER VAR\n" +
+        "HERE IS MY INVITATION VAR\n" +
+        "HE HAD TO SPLIT 4\n" +
+        "ENOUGH TALK\n" +
+        "TALK TO THE HAND VAR\n" +
+        "YOU HAVE BEEN TERMINATED\n"
+    getOutput(code) should equal("25\n")
+  }
+
+  it should "evaluate when dividing variables with different signs" in {
+    val code =
+      "IT'S SHOWTIME\n" +
+        "HEY CHRISTMAS TREE VAR\n" +
+        "YOU SET US UP 99\n" +
