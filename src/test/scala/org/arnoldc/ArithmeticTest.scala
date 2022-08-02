@@ -253,3 +253,50 @@ class ArithmeticTest extends ArnoldGeneratorTest {
       "IT'S SHOWTIME\n" +
         "HEY CHRISTMAS TREE VAR\n" +
         "YOU SET US UP 99\n" +
+        "GET TO THE CHOPPER VAR\n" +
+        "HERE IS MY INVITATION VAR\n" +
+        "HE HAD TO SPLIT -33\n" +
+        "ENOUGH TALK\n" +
+        "TALK TO THE HAND VAR\n" +
+        "YOU HAVE BEEN TERMINATED\n"
+    getOutput(code) should equal("-3\n")
+  }
+
+  it should "evaluate when dividing variables with one" in {
+    val code =
+      "IT'S SHOWTIME\n" +
+        "HEY CHRISTMAS TREE VAR\n" +
+        "YOU SET US UP 22\n" +
+        "GET TO THE CHOPPER VAR\n" +
+        "HERE IS MY INVITATION VAR\n" +
+        "HE HAD TO SPLIT 1\n" +
+        "ENOUGH TALK\n" +
+        "TALK TO THE HAND VAR\n" +
+        "YOU HAVE BEEN TERMINATED\n"
+    getOutput(code) should equal("22\n")
+  }
+
+  it should "evaluate when dividing assigned variables" in {
+    val code =
+      "IT'S SHOWTIME\n" +
+        "HEY CHRISTMAS TREE VAR\n" +
+        "YOU SET US UP 9\n" +
+        "HEY CHRISTMAS TREE VAR2\n" +
+        "YOU SET US UP 4\n" +
+        "GET TO THE CHOPPER VAR\n" +
+        "HERE IS MY INVITATION VAR\n" +
+        "HE HAD TO SPLIT VAR2\n" +
+        "ENOUGH TALK\n" +
+        "TALK TO THE HAND VAR\n" +
+        "YOU HAVE BEEN TERMINATED\n"
+    getOutput(code) should equal("2\n")
+  }
+
+  it should "evaluate when calculating modulo variables vol1" in {
+    val code =
+      "IT'S SHOWTIME\n" +
+        "HEY CHRISTMAS TREE var\n" +
+        "YOU SET US UP 1\n" +
+        "GET TO THE CHOPPER var\n" +
+        "HERE IS MY INVITATION var\n" +
+        "I LET HIM GO 2\n" +
