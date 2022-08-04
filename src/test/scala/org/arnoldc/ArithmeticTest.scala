@@ -339,3 +339,38 @@ class ArithmeticTest extends ArnoldGeneratorTest {
   it should "evaluate using different arithmetic operations vol2" in {
     val code =
       "IT'S SHOWTIME\n" +
+        "HEY CHRISTMAS TREE VAR\n" +
+        "YOU SET US UP 22\n" +
+        "GET TO THE CHOPPER VAR\n" +
+        "HERE IS MY INVITATION 11\n" +
+        "GET DOWN 55\n" +
+        "GET UP 11\n" +
+        "GET UP 22\n" +
+        "GET UP 23\n" +
+        "GET DOWN 0\n" +
+        "GET UP 0\n" +
+        "GET UP 1\n" +
+        "ENOUGH TALK\n" +
+        "TALK TO THE HAND VAR\n" +
+        "YOU HAVE BEEN TERMINATED\n"
+    getOutput(code) should equal("13\n")
+  }
+
+  it should "evaluate using different arithmetic operations vol3" in {
+    val code =
+      "IT'S SHOWTIME\n" +
+        "HEY CHRISTMAS TREE VAR\n" +
+        "YOU SET US UP 22\n" +
+        "GET TO THE CHOPPER VAR\n" +
+        "HERE IS MY INVITATION 11\n" +
+        "GET DOWN 22\n" +
+        "HE HAD TO SPLIT -11\n" +
+        "YOU'RE FIRED 23\n" +
+        "GET UP 23\n" +
+        "GET DOWN 22\n" +
+        "HE HAD TO SPLIT 2\n" +
+        "ENOUGH TALK\n" +
+        "TALK TO THE HAND VAR\n" +
+        "YOU HAVE BEEN TERMINATED\n"
+    getOutput(code) should equal("12\n")
+  }
