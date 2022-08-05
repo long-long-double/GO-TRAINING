@@ -374,3 +374,28 @@ class ArithmeticTest extends ArnoldGeneratorTest {
         "YOU HAVE BEEN TERMINATED\n"
     getOutput(code) should equal("12\n")
   }
+
+  it should "detect duplicate variable declarations" in {
+    val code =
+      "IT'S SHOWTIME\n" +
+        "HEY CHRISTMAS TREE VAR\n" +
+        "YOU SET US UP 22\n" +
+        "HEY CHRISTMAS TREE VAR\n" +
+        "YOU SET US UP 22\n" +
+        "YOU HAVE BEEN TERMINATED\n"
+    intercept[ParsingException] {
+      getOutput(code)
+    }
+  }
+
+  it should "detect faulty variable names" in {
+    val code =
+      "IT'S SHOWTIME\n" +
+        "HEY CHRISTMAS TREE 1VAR\n" +
+        "YOU SET US UP 123\n" +
+        "YOU HAVE BEEN TERMINATED\n"
+    intercept[ParsingException] {
+      getOutput(code)
+    }
+  }
+}
