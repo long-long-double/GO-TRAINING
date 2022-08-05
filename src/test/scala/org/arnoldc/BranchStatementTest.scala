@@ -1,3 +1,4 @@
 package org.arnoldc
 
-class BranchStatementTest extends Arno
+class BranchStatementTest extends ArnoldGeneratorTest {
+  it should "function us
