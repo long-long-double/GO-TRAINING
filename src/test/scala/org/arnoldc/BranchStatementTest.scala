@@ -4,4 +4,5 @@ class BranchStatementTest extends ArnoldGeneratorTest {
   it should "function using simple if statements" in {
     val code =
       "IT'S SHOWTIME\n" +
-        "HEY CHRIS
+        "HEY CHRISTMAS TREE vartrue\n" +
+        "YOU SET US 
