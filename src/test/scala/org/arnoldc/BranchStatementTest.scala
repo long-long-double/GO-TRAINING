@@ -7,4 +7,5 @@ class BranchStatementTest extends ArnoldGeneratorTest {
         "HEY CHRISTMAS TREE vartrue\n" +
         "YOU SET US UP @NO PROBLEMO\n" +
         "BECAUSE I'M GOING TO SAY PLEASE vartrue\n" +
-        "TALK TO TH
+        "TALK TO THE HAND \"this branch should be reached\"\n" +
+       
