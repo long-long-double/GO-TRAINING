@@ -13,3 +13,4 @@ class BranchStatementTest extends ArnoldGeneratorTest {
     getOutput(code) should equal("this branch should be reached\n")
   }
 
+  it should "function using simple if statements
