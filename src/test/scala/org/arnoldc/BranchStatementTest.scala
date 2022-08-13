@@ -20,4 +20,5 @@ class BranchStatementTest extends ArnoldGeneratorTest {
         "YOU SET US UP @I LIED\n" +
         "BECAUSE I'M GOING TO SAY PLEASE vartrue\n" +
         "TALK TO THE HAND \"this branch should not be reached\"\n" +
-        "YOU HAVE NO RESPECT FOR L
+        "YOU HAVE NO RESPECT FOR LOGIC\n" +
+        "YOU HAVE BEEN TERMINATED\
