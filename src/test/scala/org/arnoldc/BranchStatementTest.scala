@@ -25,4 +25,6 @@ class BranchStatementTest extends ArnoldGeneratorTest {
     getOutput(code) should equal("")
   }
 
-  it should "function using simple if else st
+  it should "function using simple if else statements" in {
+    val code =
+      "IT'S SH
