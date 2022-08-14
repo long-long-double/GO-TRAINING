@@ -25,4 +25,4 @@ class BranchStatementTest extends ArnoldGeneratorTest {
     getOutput(code) should equal("")
   }
 
- 
+  it should "function using simple if else st
