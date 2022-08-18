@@ -34,4 +34,5 @@ class BranchStatementTest extends ArnoldGeneratorTest {
         "TALK TO THE HAND \"this branch should be reached\"\n" +
         "BULLSHIT\n" +
         "TALK TO THE HAND \"this branch should not be reached\"\n" +
-        "YOU HAVE NO RESPECT
+        "YOU HAVE NO RESPECT FOR LOGIC\n" +
+        "YOU HAVE BEEN TERMIN
