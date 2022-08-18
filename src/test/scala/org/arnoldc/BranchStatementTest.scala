@@ -36,4 +36,7 @@ class BranchStatementTest extends ArnoldGeneratorTest {
         "TALK TO THE HAND \"this branch should not be reached\"\n" +
         "YOU HAVE NO RESPECT FOR LOGIC\n" +
         "YOU HAVE BEEN TERMINATED\n"
-    getOutput(code) should equal("th
+    getOutput(code) should equal("this branch should be reached\n")
+  }
+
+  it should "
