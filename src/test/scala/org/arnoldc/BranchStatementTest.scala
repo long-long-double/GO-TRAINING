@@ -47,4 +47,5 @@ class BranchStatementTest extends ArnoldGeneratorTest {
         "BECAUSE I'M GOING TO SAY PLEASE varfalse\n" +
         "TALK TO THE HAND \"this branch should not be reached\"\n" +
         "BULLSHIT\n" +
-        "TALK TO THE HAND \"
+        "TALK TO THE HAND \"this branch should be reached\"\n" +
+        "YOU HAVE NO 
