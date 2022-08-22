@@ -53,4 +53,7 @@ class BranchStatementTest extends ArnoldGeneratorTest {
     getOutput(code) should equal("this branch should be reached\n")
   }
 
-  it should "function using assigning variables in if statements" in
+  it should "function using assigning variables in if statements" in {
+    val code =
+      "IT'S SHOWTIME\n" +
+       
