@@ -56,4 +56,5 @@ class BranchStatementTest extends ArnoldGeneratorTest {
   it should "function using assigning variables in if statements" in {
     val code =
       "IT'S SHOWTIME\n" +
-       
+        "HEY CHRISTMAS TREE var\n" +
+        "YOU SET US U
