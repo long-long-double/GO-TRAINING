@@ -60,4 +60,5 @@ class BranchStatementTest extends ArnoldGeneratorTest {
         "YOU SET US UP 0\n" +
         "HEY CHRISTMAS TREE vartrue\n" +
         "YOU SET US UP @NO PROBLEMO\n" +
-        "BE
+        "BECAUSE I'M GOING TO SAY PLEASE vartrue\n" +
+        
