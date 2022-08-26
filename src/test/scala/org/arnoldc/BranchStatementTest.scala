@@ -65,4 +65,5 @@ class BranchStatementTest extends ArnoldGeneratorTest {
         "HERE IS MY INVITATION 3\n" +
         "ENOUGH TALK\n" +
         "YOU HAVE NO RESPECT FOR LOGIC\n" +
-   
+        "TALK TO THE HAND var\n" +
+        "YOU HA
