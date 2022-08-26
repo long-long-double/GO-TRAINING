@@ -66,4 +66,6 @@ class BranchStatementTest extends ArnoldGeneratorTest {
         "ENOUGH TALK\n" +
         "YOU HAVE NO RESPECT FOR LOGIC\n" +
         "TALK TO THE HAND var\n" +
-        "YOU HA
+        "YOU HAVE BEEN TERMINATED\n"
+    getOutput(code) should equal("3\n")
+  }
