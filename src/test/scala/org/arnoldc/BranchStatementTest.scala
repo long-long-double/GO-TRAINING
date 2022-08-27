@@ -69,3 +69,7 @@ class BranchStatementTest extends ArnoldGeneratorTest {
         "YOU HAVE BEEN TERMINATED\n"
     getOutput(code) should equal("3\n")
   }
+
+
+  it should "function using stub while statement" in {
+ 
