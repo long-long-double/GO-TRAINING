@@ -75,4 +75,5 @@ class BranchStatementTest extends ArnoldGeneratorTest {
     val code =
       "IT'S SHOWTIME\n" +
         "HEY CHRISTMAS TREE varfalse\n" +
-        "YOU SET US
+        "YOU SET US UP @I LIED\n" +
+        "STICK AROUND varfalse\n" +
