@@ -78,4 +78,6 @@ class BranchStatementTest extends ArnoldGeneratorTest {
         "YOU SET US UP @I LIED\n" +
         "STICK AROUND varfalse\n" +
         "CHILL\n" +
-        "YOU HAVE BEEN 
+        "YOU HAVE BEEN TERMINATED\n"
+    getOutput(code) should equal("")
+  
