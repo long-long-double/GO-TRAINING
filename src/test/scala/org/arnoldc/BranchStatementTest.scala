@@ -87,4 +87,6 @@ class BranchStatementTest extends ArnoldGeneratorTest {
     val code =
       "IT'S SHOWTIME\n" +
         "STICK AROUND @I LIED\n" +
-        
+        "CHILL\n" +
+        "YOU HAVE BEEN TERMINATED\n"
+    getOutput(code
