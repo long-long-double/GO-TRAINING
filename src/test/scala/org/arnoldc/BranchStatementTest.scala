@@ -85,4 +85,6 @@ class BranchStatementTest extends ArnoldGeneratorTest {
 
   it should "function using stub while statement vol2" in {
     val code =
-      "IT'S SHOWT
+      "IT'S SHOWTIME\n" +
+        "STICK AROUND @I LIED\n" +
+        
