@@ -80,4 +80,7 @@ class BranchStatementTest extends ArnoldGeneratorTest {
         "CHILL\n" +
         "YOU HAVE BEEN TERMINATED\n"
     getOutput(code) should equal("")
-  
+  }
+
+
+  it should "function using stub while statement vol2
