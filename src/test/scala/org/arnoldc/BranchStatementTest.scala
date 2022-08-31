@@ -83,4 +83,6 @@ class BranchStatementTest extends ArnoldGeneratorTest {
   }
 
 
-  it should "function using stub while statement vol2
+  it should "function using stub while statement vol2" in {
+    val code =
+      "IT'S SHOWT
