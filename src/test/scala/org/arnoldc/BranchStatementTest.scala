@@ -94,4 +94,5 @@ class BranchStatementTest extends ArnoldGeneratorTest {
 
 
 
-  it should "fu
+  it should "function when while loop executed once" in {
+    
