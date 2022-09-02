@@ -97,4 +97,5 @@ class BranchStatementTest extends ArnoldGeneratorTest {
   it should "function when while loop executed once" in {
     val code =
       "IT'S SHOWTIME\n" +
-      
+        "HEY CHRISTMAS TREE varfalse\n" +
+        "YOU SE
