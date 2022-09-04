@@ -106,4 +106,7 @@ class BranchStatementTest extends ArnoldGeneratorTest {
         "TALK TO THE HAND \"while statement printed once\"\n" +
         "CHILL\n" +
         "YOU HAVE BEEN TERMINATED\n"
-    getOutput(code) should equal
+    getOutput(code) should equal("while statement printed once\n")
+  }
+
+  it should "func
