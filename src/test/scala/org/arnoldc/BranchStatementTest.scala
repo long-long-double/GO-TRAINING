@@ -103,4 +103,4 @@ class BranchStatementTest extends ArnoldGeneratorTest {
         "GET TO THE CHOPPER varfalse\n" +
         "HERE IS MY INVITATION @I LIED\n" +
         "ENOUGH TALK\n" +
-        
+        "TALK TO THE HAND \"while statement printed o
