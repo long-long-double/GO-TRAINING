@@ -105,4 +105,5 @@ class BranchStatementTest extends ArnoldGeneratorTest {
         "ENOUGH TALK\n" +
         "TALK TO THE HAND \"while statement printed once\"\n" +
         "CHILL\n" +
-        "YOU H
+        "YOU HAVE BEEN TERMINATED\n"
+    getOutput(code) should equal
