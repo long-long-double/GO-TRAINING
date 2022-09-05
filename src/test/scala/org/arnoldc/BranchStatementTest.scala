@@ -112,4 +112,5 @@ class BranchStatementTest extends ArnoldGeneratorTest {
   it should "function when while loop executed consequently" in {
     val code =
       "IT'S SHOWTIME\n" +
-        "HEY CHRISTM
+        "HEY CHRISTMAS TREE isLessThan10\n" +
+        "YOU SET US UP 
