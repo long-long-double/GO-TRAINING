@@ -109,4 +109,5 @@ class BranchStatementTest extends ArnoldGeneratorTest {
     getOutput(code) should equal("while statement printed once\n")
   }
 
-  it should "func
+  it should "function when while loop executed consequently" in {
+    
