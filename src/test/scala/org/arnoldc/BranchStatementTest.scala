@@ -116,4 +116,5 @@ class BranchStatementTest extends ArnoldGeneratorTest {
         "YOU SET US UP @NO PROBLEMO\n" +
         "HEY CHRISTMAS TREE n\n" +
         "YOU SET US UP 0\n" +
-        "STICK
+        "STICK AROUND isLessThan10\n" +
+        "GET TO THE CHOPPER n\n
