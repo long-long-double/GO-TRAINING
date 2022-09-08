@@ -127,3 +127,5 @@ class BranchStatementTest extends ArnoldGeneratorTest {
         "LET OFF SOME STEAM BENNET n\n" +
         "ENOUGH TALK\n" +
         "CHILL\n" +
+        "YOU HAVE BEEN TERMINATED\n"
+  
