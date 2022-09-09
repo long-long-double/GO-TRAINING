@@ -128,4 +128,6 @@ class BranchStatementTest extends ArnoldGeneratorTest {
         "ENOUGH TALK\n" +
         "CHILL\n" +
         "YOU HAVE BEEN TERMINATED\n"
-    getOutput(code) should equal("1\n2\n3\n
+    getOutput(code) should equal("1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n")
+  }
+}
