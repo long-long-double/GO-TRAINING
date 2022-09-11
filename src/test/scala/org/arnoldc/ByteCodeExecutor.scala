@@ -2,4 +2,5 @@ package org.arnoldc
 
 import java.io.{PrintStream, ByteArrayOutputStream}
 
-class ByteCodeExecuto
+class ByteCodeExecutor extends ClassLoader {
+  val originalOutputStream = S
