@@ -7,4 +7,6 @@ class ByteCodeExecutor extends ClassLoader {
 
   def getOutput(bytecode: Array[Byte], className: String): String = {
 
-    val output
+    val outputRedirectionStream = new ByteArrayOutputStream()
+
+   
