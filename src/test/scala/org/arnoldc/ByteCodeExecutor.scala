@@ -13,4 +13,7 @@ class ByteCodeExecutor extends ClassLoader {
 
     invokeMainMethod(bytecode, className)
     System.setOut(originalOutputStream)
-    outpu
+    outputRedirectionStream.toString
+  }
+
+  def invokeMa
