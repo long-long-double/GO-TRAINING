@@ -11,4 +11,6 @@ class ByteCodeExecutor extends ClassLoader {
 
    System.setOut(new PrintStream(outputRedirectionStream))
 
-    invokeMainMethod(bytecode, class
+    invokeMainMethod(bytecode, className)
+    System.setOut(originalOutputStream)
+    outpu
