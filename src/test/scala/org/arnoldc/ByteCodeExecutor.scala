@@ -16,4 +16,5 @@ class ByteCodeExecutor extends ClassLoader {
     outputRedirectionStream.toString
   }
 
-  def invokeMainMethod(bytecode: Array[Byte], className: String)
+  def invokeMainMethod(bytecode: Array[Byte], className: String) = {
+    val template = new ByteCodeExecutor()
