@@ -16,4 +16,4 @@ class ByteCodeExecutor extends ClassLoader {
     outputRedirectionStream.toString
   }
 
-  def invokeMa
+  def invokeMainMethod(bytecode: Array[Byte], className: String)
