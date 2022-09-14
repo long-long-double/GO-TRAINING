@@ -18,4 +18,5 @@ class ByteCodeExecutor extends ClassLoader {
 
   def invokeMainMethod(bytecode: Array[Byte], className: String) = {
     val template = new ByteCodeExecutor()
-    val testClass = template.defineClass(
+    val testClass = template.defineClass(className, bytecode, 0, bytecode.length)
+    val te
