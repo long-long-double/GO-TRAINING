@@ -20,4 +20,6 @@ class ByteCodeExecutor extends ClassLoader {
     val template = new ByteCodeExecutor()
     val testClass = template.defineClass(className, bytecode, 0, bytecode.length)
     val testInstance = testClass.newInstance().asInstanceOf[ {def main(test: Array[String])}]
-    tes
+    testInstance.main(null)
+  }
+}
