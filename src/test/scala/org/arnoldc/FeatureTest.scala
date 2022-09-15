@@ -81,3 +81,48 @@ class FeatureTest extends ArnoldGeneratorTest {
       "\t\tGET YOUR ASS TO MARS temp2\n" +
       "\t\tDO IT NOW fib val\n" +
       "\t\tGET TO THE CHOPPER val\n" +
+      "\t\tHERE IS MY INVITATION temp1\n" +
+      "\t\tGET UP temp2\n" +
+      "\t\tENOUGH TALK\n" +
+      "\t\tI'LL BE BACK val\n" +
+      "\t\tYOU HAVE NO RESPECT FOR LOGIC\n\n" +
+      "\nHASTA LA VISTA, BABY"
+
+    getOutput(code) should equal("34\n")
+  }
+
+
+  it should "printf modulos when a modulo function is defined" in {
+    val code = "IT'S SHOWTIME\n" +
+      "HEY CHRISTMAS TREE result1\n" +
+      "YOU SET US UP 0\n" +
+      "HEY CHRISTMAS TREE result2\n" +
+      "YOU SET US UP 0\n" +
+      "HEY CHRISTMAS TREE result3\n" +
+      "YOU SET US UP 0\n" +
+      "HEY CHRISTMAS TREE result4\n" +
+      "YOU SET US UP 0\n" +
+      "GET YOUR ASS TO MARS result1\n" +
+      "DO IT NOW modulo 9 4\n" +
+      "TALK TO THE HAND result1\n" +
+      "GET YOUR ASS TO MARS result2\n" +
+      "DO IT NOW modulo 4795 87\n" +
+      "TALK TO THE HAND result2\n" +
+      "GET YOUR ASS TO MARS result3\n" +
+      "DO IT NOW modulo 3978 221\n" +
+      "TALK TO THE HAND result3\n" +
+      "GET YOUR ASS TO MARS result4\n" +
+      "DO IT NOW modulo 5559 345\n" +
+      "TALK TO THE HAND result4\n" +
+      "YOU HAVE BEEN TERMINATED\n" +
+      "LISTEN TO ME VERY CAREFULLY modulo\n" +
+      "I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE dividend\n" +
+      "I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE divisor\n" +
+      "GIVE THESE PEOPLE AIR\n" +
+      "HEY CHRISTMAS TREE quotient\n" +
+      "YOU SET US UP 0\n" +
+      "HEY CHRISTMAS TREE remainder\n" +
+      "YOU SET US UP 0\n" +
+      "HEY CHRISTMAS TREE product\n" +
+      "YOU SET US UP 0\n" +
+      "GET TO THE CHOPPER quotient\n" +
