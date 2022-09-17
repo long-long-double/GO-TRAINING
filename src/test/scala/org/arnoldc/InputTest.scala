@@ -1,2 +1,5 @@
 package org.arnoldc
-import org.scalatest.{Matche
+import org.scalatest.{Matchers, FlatSpec}
+import java.io._
+
+class InputTest extends 
