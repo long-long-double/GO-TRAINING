@@ -8,4 +8,5 @@ class InputTest extends ArnoldGeneratorTest{
     writeToFile(path, "123")
     val code =
       "IT'S SHOWTIME\n" +
-      "TALK
+      "TALK TO THE HAND \"Input a number:\"\n" +
+  
