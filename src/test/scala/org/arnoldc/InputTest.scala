@@ -6,3 +6,6 @@ class InputTest extends ArnoldGeneratorTest{
 
   it should "read integer from input" in {
     writeToFile(path, "123")
+    val code =
+      "IT'S SHOWTIME\n" +
+      "TALK
