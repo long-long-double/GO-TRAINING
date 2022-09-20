@@ -4,4 +4,5 @@ import java.io._
 
 class InputTest extends ArnoldGeneratorTest{
 
-  it should "read intege
+  it should "read integer from input" in {
+    writeToFile(path, "123")
