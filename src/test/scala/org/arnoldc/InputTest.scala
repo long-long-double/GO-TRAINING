@@ -10,4 +10,6 @@ class InputTest extends ArnoldGeneratorTest{
       "IT'S SHOWTIME\n" +
       "TALK TO THE HAND \"Input a number:\"\n" +
       "HEY CHRISTMAS TREE result\n" +
+      "YOU SET US UP 0\n" +
+      "GET YOUR ASS TO MARS result\n" +
       "
