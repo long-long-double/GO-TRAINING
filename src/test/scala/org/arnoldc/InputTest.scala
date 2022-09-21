@@ -9,4 +9,5 @@ class InputTest extends ArnoldGeneratorTest{
     val code =
       "IT'S SHOWTIME\n" +
       "TALK TO THE HAND \"Input a number:\"\n" +
-  
+      "HEY CHRISTMAS TREE result\n" +
+      "
