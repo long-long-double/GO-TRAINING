@@ -13,4 +13,4 @@ class InputTest extends ArnoldGeneratorTest{
       "YOU SET US UP 0\n" +
       "GET YOUR ASS TO MARS result\n" +
       "DO IT NOW\n" +
-      "I WANT TO ASK YOU A
+      "I WANT TO ASK YOU A BUNCH OF QUESTIONS AND I WANT TO HAVE THEM A
