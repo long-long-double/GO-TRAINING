@@ -16,4 +16,5 @@ class InputTest extends ArnoldGeneratorTest{
       "I WANT TO ASK YOU A BUNCH OF QUESTIONS AND I WANT TO HAVE THEM ANSWERED IMMEDIATELY\n" +
       "TALK TO THE HAND result\n" +
       "TALK TO THE HAND \"Bye\"\n" +
-   
+      "YOU HAVE BEEN TERMINATED\n"
+    getOutput(code)
