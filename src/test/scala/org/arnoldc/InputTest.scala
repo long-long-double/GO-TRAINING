@@ -17,4 +17,5 @@ class InputTest extends ArnoldGeneratorTest{
       "TALK TO THE HAND result\n" +
       "TALK TO THE HAND \"Bye\"\n" +
       "YOU HAVE BEEN TERMINATED\n"
-    getOutput(code)
+    getOutput(code) should equal("Input a number:\n123\nBye\n")
+ 
