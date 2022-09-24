@@ -22,4 +22,6 @@ class InputTest extends ArnoldGeneratorTest{
 
   val path = "test.in"
 
-  override val byteCode
+  override val byteCodeExecutor = new ByteCodeExecutor{
+
+    overr
