@@ -18,4 +18,8 @@ class InputTest extends ArnoldGeneratorTest{
       "TALK TO THE HAND \"Bye\"\n" +
       "YOU HAVE BEEN TERMINATED\n"
     getOutput(code) should equal("Input a number:\n123\nBye\n")
- 
+  }
+
+  val path = "test.in"
+
+  override val byteCode
