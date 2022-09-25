@@ -27,4 +27,5 @@ class InputTest extends ArnoldGeneratorTest{
     override def getOutput(bytecode: Array[Byte], className: String): String = {
 
       val originalIn = System.in
-      val outputRedirectionStrea
+      val outputRedirectionStream = new ByteArrayOutputStream()
+      v
