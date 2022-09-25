@@ -24,4 +24,4 @@ class InputTest extends ArnoldGeneratorTest{
 
   override val byteCodeExecutor = new ByteCodeExecutor{
 
-    overr
+    override def getOutput(bytecode: Array[Byte], class
