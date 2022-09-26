@@ -28,4 +28,4 @@ class InputTest extends ArnoldGeneratorTest{
 
       val originalIn = System.in
       val outputRedirectionStream = new ByteArrayOutputStream()
-      v
+      val fileInput = new BufferedInputStream(new FileInputStream(pat
