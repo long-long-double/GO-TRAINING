@@ -33,4 +33,6 @@ class InputTest extends ArnoldGeneratorTest{
       System.setIn(fileInput)
 
       try {
-        invokeMainMethod(bytecode, clas
+        invokeMainMethod(bytecode, className)
+      } finally {
+        System.setOut(o
