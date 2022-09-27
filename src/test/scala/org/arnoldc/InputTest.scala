@@ -30,4 +30,7 @@ class InputTest extends ArnoldGeneratorTest{
       val outputRedirectionStream = new ByteArrayOutputStream()
       val fileInput = new BufferedInputStream(new FileInputStream(path))
       System.setOut(new PrintStream(outputRedirectionStream))
-      System.setIn(fileInpu
+      System.setIn(fileInput)
+
+      try {
+        invokeMainMethod(bytecode, clas
