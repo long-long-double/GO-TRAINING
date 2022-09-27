@@ -35,4 +35,6 @@ class InputTest extends ArnoldGeneratorTest{
       try {
         invokeMainMethod(bytecode, className)
       } finally {
-        System.setOut(o
+        System.setOut(originalOutputStream)
+        System.setIn(originalIn)
+ 
