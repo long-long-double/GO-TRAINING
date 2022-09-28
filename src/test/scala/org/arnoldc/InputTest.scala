@@ -37,4 +37,5 @@ class InputTest extends ArnoldGeneratorTest{
       } finally {
         System.setOut(originalOutputStream)
         System.setIn(originalIn)
- 
+      }
+      outputRedirectionStream.toString
