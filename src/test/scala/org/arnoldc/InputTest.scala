@@ -39,3 +39,7 @@ class InputTest extends ArnoldGeneratorTest{
         System.setIn(originalIn)
       }
       outputRedirectionStream.toString
+    }
+  }
+
+  def writeToFile(file:String, da
