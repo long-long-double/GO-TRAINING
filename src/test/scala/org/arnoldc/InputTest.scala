@@ -43,4 +43,6 @@ class InputTest extends ArnoldGeneratorTest{
   }
 
   def writeToFile(file:String, data:String) = {
-    val out = new FileOutputStream(f
+    val out = new FileOutputStream(file)
+    out.write(data.getBytes)
+    out.clos
