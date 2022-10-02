@@ -35,3 +35,58 @@ class LogicalTest extends ArnoldGeneratorTest {
     val code = "IT'S SHOWTIME\n" +
       "HEY CHRISTMAS TREE var\n" +
       "YOU SET US UP @I LIED\n" +
+      "GET TO THE CHOPPER var\n" +
+      "HERE IS MY INVITATION @NO PROBLEMO\n" +
+      "CONSIDER THAT A DIVORCE @NO PROBLEMO\n" +
+      "ENOUGH TALK\n" +
+      "TALK TO THE HAND var\n" +
+      "YOU HAVE BEEN TERMINATED\n"
+    getOutput(code) should equal("1\n")
+  }
+
+  it should "False Or False Evaluate False" in {
+    val code = "IT'S SHOWTIME\n" +
+      "HEY CHRISTMAS TREE var\n" +
+      "YOU SET US UP @I LIED\n" +
+      "GET TO THE CHOPPER var\n" +
+      "HERE IS MY INVITATION @I LIED\n" +
+      "CONSIDER THAT A DIVORCE @I LIED\n" +
+      "ENOUGH TALK\n" +
+      "TALK TO THE HAND var\n" +
+      "YOU HAVE BEEN TERMINATED\n"
+    getOutput(code) should equal("0\n")
+  }
+
+  it should "False And True Evaluate False" in {
+    val code = "IT'S SHOWTIME\n" +
+      "HEY CHRISTMAS TREE var\n" +
+      "YOU SET US UP @I LIED\n" +
+      "GET TO THE CHOPPER var\n" +
+      "HERE IS MY INVITATION @I LIED\n" +
+      "KNOCK KNOCK @NO PROBLEMO\n" +
+      "ENOUGH TALK\n" +
+      "TALK TO THE HAND var\n" +
+      "YOU HAVE BEEN TERMINATED\n"
+    getOutput(code) should equal("0\n")
+  }
+
+  it should "True And False Evaluate False" in {
+    val code = "IT'S SHOWTIME\n" +
+      "HEY CHRISTMAS TREE var\n" +
+      "YOU SET US UP @I LIED\n" +
+      "GET TO THE CHOPPER var\n" +
+      "HERE IS MY INVITATION @NO PROBLEMO\n" +
+      "KNOCK KNOCK @I LIED\n" +
+      "ENOUGH TALK\n" +
+      "TALK TO THE HAND var\n" +
+      "YOU HAVE BEEN TERMINATED\n"
+    getOutput(code) should equal("0\n")
+  }
+
+  it should "True And True Evaluate True" in {
+    val code = "IT'S SHOWTIME\n" +
+      "HEY CHRISTMAS TREE var\n" +
+      "YOU SET US UP @I LIED\n" +
+      "GET TO THE CHOPPER var\n" +
+      "HERE IS MY INVITATION @NO PROBLEMO\n" +
+      "KNOCK KNOCK @NO PROBLEMO\n" +
