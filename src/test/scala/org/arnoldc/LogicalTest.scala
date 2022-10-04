@@ -342,3 +342,39 @@ class LogicalTest extends ArnoldGeneratorTest {
         "LET OFF SOME STEAM BENNET two\n" +
         "ENOUGH TALK\n" +
         "TALK TO THE HAND result\n" +
+        "YOU HAVE BEEN TERMINATED\n"
+    getOutput(code) should equal("0\n")
+  }
+
+  it should "3 is greater than 3 evaluates False" in {
+    val code =
+      "IT'S SHOWTIME\n" +
+        "HEY CHRISTMAS TREE three\n" +
+        "YOU SET US UP 3\n" +
+        "HEY CHRISTMAS TREE three2\n" +
+        "YOU SET US UP 3\n" +
+        "HEY CHRISTMAS TREE result\n" +
+        "YOU SET US UP @NO PROBLEMO\n" +
+        "GET TO THE CHOPPER result\n" +
+        "HERE IS MY INVITATION three\n" +
+        "LET OFF SOME STEAM BENNET three2\n" +
+        "ENOUGH TALK\n" +
+        "TALK TO THE HAND result\n" +
+        "YOU HAVE BEEN TERMINATED\n"
+    getOutput(code) should equal("0\n")
+  }
+
+  it should "detect faulty logical operations" in {
+    val code = "IT'S SHOWTIME\n" +
+      "RIGHT? WRONG! VAR\n" +
+      "YOU SET US UP @I LIED\n" +
+      "GET TO THE CHOPPER VAR\n" +
+      "@I LIED\n" +
+      "@I LIED\n" +
+      "CONSIDER THAT A DIVORCE\n" +
+      "@NO PROBLEMO\n" +
+      "ENOUGH TALK\n" +
+      "YOU HAVE BEEN TERMINATED\n"
+    intercept[ParsingException] {
+      getOutput(code)
+    }
