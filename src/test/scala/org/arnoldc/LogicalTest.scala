@@ -378,3 +378,5 @@ class LogicalTest extends ArnoldGeneratorTest {
     intercept[ParsingException] {
       getOutput(code)
     }
+  }
+}
