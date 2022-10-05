@@ -4,4 +4,5 @@ import org.parboiled.errors.ParsingException
 
 class MethodTest extends ArnoldGeneratorTest {
 
-  it should "evalute
+  it should "evalute method other than main" in {
+    val
