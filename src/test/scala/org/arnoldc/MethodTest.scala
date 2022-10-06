@@ -10,4 +10,5 @@ class MethodTest extends ArnoldGeneratorTest {
         "HASTA LA VISTA, BABY\n" +
         "IT'S SHOWTIME\n" +
         "TALK TO THE HAND \"Hello\"\n" +
-        "
+        "YOU HAVE BEEN TERMINATED\n"
+    getOutp
