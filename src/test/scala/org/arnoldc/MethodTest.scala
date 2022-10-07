@@ -14,4 +14,6 @@ class MethodTest extends ArnoldGeneratorTest {
     getOutput(code) should equal("Hello\n")
   }
 
-  it should "evalute method other than main2" in 
+  it should "evalute method other than main2" in {
+    val code =
+      "LISTEN TO ME VERY CAREFULLY mymet
