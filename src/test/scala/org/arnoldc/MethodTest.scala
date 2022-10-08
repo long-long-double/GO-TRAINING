@@ -21,4 +21,7 @@ class MethodTest extends ArnoldGeneratorTest {
         "IT'S SHOWTIME\n" +
         "TALK TO THE HAND \"Hello\"\n" +
         "YOU HAVE BEEN TERMINATED"
-  
+    getOutput(code) should equal("Hello\n")
+  }
+
+  i
