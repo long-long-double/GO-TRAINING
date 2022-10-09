@@ -27,4 +27,5 @@ class MethodTest extends ArnoldGeneratorTest {
   it should "evalute method other than main3" in {
     val code =
       "IT'S SHOWTIME\n" +
-  
+        "TALK TO THE HAND \"Hello\"\n" +
+        "YO
