@@ -24,4 +24,4 @@ class MethodTest extends ArnoldGeneratorTest {
     getOutput(code) should equal("Hello\n")
   }
 
-  i
+  it should "evalute method other than main3" 
