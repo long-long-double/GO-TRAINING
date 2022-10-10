@@ -28,4 +28,5 @@ class MethodTest extends ArnoldGeneratorTest {
     val code =
       "IT'S SHOWTIME\n" +
         "TALK TO THE HAND \"Hello\"\n" +
-        "YO
+        "YOU HAVE BEEN TERMINATED\n" +
+        "LISTEN TO ME VERY CA
