@@ -31,4 +31,6 @@ class MethodTest extends ArnoldGeneratorTest {
         "YOU HAVE BEEN TERMINATED\n" +
         "LISTEN TO ME VERY CAREFULLY mymethod\n" +
         "HASTA LA VISTA, BABY\n"
-    getOutput(code) should equal("Hello\
+    getOutput(code) should equal("Hello\n")
+  }
+  it should "evalute method other than 
