@@ -38,4 +38,6 @@ class MethodTest extends ArnoldGeneratorTest {
       "IT'S SHOWTIME\n" +
         "TALK TO THE HAND \"Hello\"\n" +
         "YOU HAVE BEEN TERMINATED\n" +
-        "LISTEN TO ME VERY CAREFULLY mymethod\
+        "LISTEN TO ME VERY CAREFULLY mymethod\n" +
+        "HASTA LA VISTA, BABY"
+    getOutput(code) sh
