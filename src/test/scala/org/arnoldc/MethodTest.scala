@@ -40,4 +40,7 @@ class MethodTest extends ArnoldGeneratorTest {
         "YOU HAVE BEEN TERMINATED\n" +
         "LISTEN TO ME VERY CAREFULLY mymethod\n" +
         "HASTA LA VISTA, BABY"
-    getOutput(code) sh
+    getOutput(code) should equal("Hello\n")
+  }
+
+  it should "evalute a p
