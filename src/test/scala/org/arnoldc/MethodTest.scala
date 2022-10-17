@@ -45,4 +45,6 @@ class MethodTest extends ArnoldGeneratorTest {
 
   it should "evalute a plain method call" in {
     val code =
-      "IT'S S
+      "IT'S SHOWTIME\n" +
+        "DO IT NOW printHello\n" +
+     
