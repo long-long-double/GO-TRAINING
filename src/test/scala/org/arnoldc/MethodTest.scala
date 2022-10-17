@@ -43,4 +43,6 @@ class MethodTest extends ArnoldGeneratorTest {
     getOutput(code) should equal("Hello\n")
   }
 
-  it should "evalute a p
+  it should "evalute a plain method call" in {
+    val code =
+      "IT'S S
