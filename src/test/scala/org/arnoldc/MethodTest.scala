@@ -51,3 +51,7 @@ class MethodTest extends ArnoldGeneratorTest {
         "LISTEN TO ME VERY CAREFULLY printHello\n" +
         "TALK TO THE HAND \"Hello\"\n" +
         "HASTA LA VISTA, BABY"
+    getOutput(code) should equal("Hello\n")
+  }
+
+ 
