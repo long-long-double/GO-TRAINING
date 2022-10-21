@@ -54,4 +54,4 @@ class MethodTest extends ArnoldGeneratorTest {
     getOutput(code) should equal("Hello\n")
   }
 
- 
+  it should "evalute a method call th
