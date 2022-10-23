@@ -56,4 +56,6 @@ class MethodTest extends ArnoldGeneratorTest {
 
   it should "evalute a method call that takes an argument" in {
     val code =
-      "IT'S SHOWTI
+      "IT'S SHOWTIME\n" +
+        "HEY CHRISTMAS TREE argument\n" +
+       
