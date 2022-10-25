@@ -59,4 +59,6 @@ class MethodTest extends ArnoldGeneratorTest {
       "IT'S SHOWTIME\n" +
         "HEY CHRISTMAS TREE argument\n" +
         "YOU SET US UP 123\n" +
-        "DO IT NOW printIntege
+        "DO IT NOW printInteger argument\n" +
+        "YOU HAVE BEEN TERMINATED\n" +
+ 
