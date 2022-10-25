@@ -61,4 +61,5 @@ class MethodTest extends ArnoldGeneratorTest {
         "YOU SET US UP 123\n" +
         "DO IT NOW printInteger argument\n" +
         "YOU HAVE BEEN TERMINATED\n" +
- 
+        "LISTEN TO ME VERY CAREFULLY printInteger\n" +
+        "I NE
