@@ -65,4 +65,7 @@ class MethodTest extends ArnoldGeneratorTest {
         "I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE value\n" +
         "TALK TO THE HAND value\n" +
         "HASTA LA VISTA, BABY"
-    getOutput(code) sho
+    getOutput(code) should equal("123\n")
+  }
+
+  it should "evalute 
