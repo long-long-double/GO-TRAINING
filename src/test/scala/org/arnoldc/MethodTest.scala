@@ -64,3 +64,5 @@ class MethodTest extends ArnoldGeneratorTest {
         "LISTEN TO ME VERY CAREFULLY printInteger\n" +
         "I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE value\n" +
         "TALK TO THE HAND value\n" +
+        "HASTA LA VISTA, BABY"
+    getOutput(code) sho
