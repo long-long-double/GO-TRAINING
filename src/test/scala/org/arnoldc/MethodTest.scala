@@ -68,4 +68,6 @@ class MethodTest extends ArnoldGeneratorTest {
     getOutput(code) should equal("123\n")
   }
 
-  it should "evalute 
+  it should "evalute multiple method calls" in {
+    val code =
+      "IT
