@@ -73,4 +73,5 @@ class MethodTest extends ArnoldGeneratorTest {
       "IT'S SHOWTIME\n" +
         "DO IT NOW printHello\n" +
         "DO IT NOW printCheers\n" +
-       
+        "YOU HAVE BEEN TERMINATED\n" +
+        "LISTEN TO ME
