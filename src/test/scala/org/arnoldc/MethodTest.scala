@@ -71,4 +71,6 @@ class MethodTest extends ArnoldGeneratorTest {
   it should "evalute multiple method calls" in {
     val code =
       "IT'S SHOWTIME\n" +
-        "DO IT NOW printH
+        "DO IT NOW printHello\n" +
+        "DO IT NOW printCheers\n" +
+       
