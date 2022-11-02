@@ -79,4 +79,5 @@ class MethodTest extends ArnoldGeneratorTest {
         "HASTA LA VISTA, BABY\n" +
         "LISTEN TO ME VERY CAREFULLY printCheers\n" +
         "TALK TO THE HAND \"Cheers\"\n" +
-        "HAS
+        "HASTA LA VISTA, BABY"
+    getOutput(code) should eq
