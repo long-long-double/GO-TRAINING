@@ -78,4 +78,5 @@ class MethodTest extends ArnoldGeneratorTest {
         "TALK TO THE HAND \"Hello\"\n" +
         "HASTA LA VISTA, BABY\n" +
         "LISTEN TO ME VERY CAREFULLY printCheers\n" +
-     
+        "TALK TO THE HAND \"Cheers\"\n" +
+        "HAS
