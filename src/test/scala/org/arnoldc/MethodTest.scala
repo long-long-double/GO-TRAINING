@@ -83,4 +83,4 @@ class MethodTest extends ArnoldGeneratorTest {
     getOutput(code) should equal("Hello\nCheers\n")
   }
 
-  it should "ev
+  it should "evalute method calls inside method calls" in {
