@@ -84,3 +84,6 @@ class MethodTest extends ArnoldGeneratorTest {
   }
 
   it should "evalute method calls inside method calls" in {
+    val code =
+      "IT'S SHOWTIME\n" +
+        "D
