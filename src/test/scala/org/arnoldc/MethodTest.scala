@@ -90,4 +90,5 @@ class MethodTest extends ArnoldGeneratorTest {
         "YOU HAVE BEEN TERMINATED\n" +
         "LISTEN TO ME VERY CAREFULLY printHello\n" +
         "TALK TO THE HAND \"Hello\"\n" +
-        "DO IT NOW printC
+        "DO IT NOW printCheers\n" +
+        "DO IT NOW printHejsan\n" 
