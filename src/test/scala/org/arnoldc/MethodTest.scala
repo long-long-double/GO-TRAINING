@@ -94,4 +94,5 @@ class MethodTest extends ArnoldGeneratorTest {
         "DO IT NOW printHejsan\n" +
         "HASTA LA VISTA, BABY\n" +
         "LISTEN TO ME VERY CAREFULLY printCheers\n" +
-        
+        "TALK TO THE HAND \"Cheers\"\n" +
+        "HASTA LA VISTA, 
