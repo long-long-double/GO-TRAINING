@@ -96,4 +96,5 @@ class MethodTest extends ArnoldGeneratorTest {
         "LISTEN TO ME VERY CAREFULLY printCheers\n" +
         "TALK TO THE HAND \"Cheers\"\n" +
         "HASTA LA VISTA, BABY\n" +
-        "LISTEN TO ME VERY CAREFULLY pri
+        "LISTEN TO ME VERY CAREFULLY printHejsan\n" +
+        "TALK TO THE HAND \"He
