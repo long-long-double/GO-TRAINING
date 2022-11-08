@@ -99,4 +99,7 @@ class MethodTest extends ArnoldGeneratorTest {
         "LISTEN TO ME VERY CAREFULLY printHejsan\n" +
         "TALK TO THE HAND \"Hejsan\"\n" +
         "HASTA LA VISTA, BABY"
-    getOutput(code) should equal("Hell
+    getOutput(code) should equal("Hello\nCheers\nHejsan\n")
+  }
+
+  it should "evalute a re
