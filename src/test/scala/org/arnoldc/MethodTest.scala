@@ -102,4 +102,6 @@ class MethodTest extends ArnoldGeneratorTest {
     getOutput(code) should equal("Hello\nCheers\nHejsan\n")
   }
 
-  it should "evalute a re
+  it should "evalute a return statement in void calls" in {
+    val code =
+    
