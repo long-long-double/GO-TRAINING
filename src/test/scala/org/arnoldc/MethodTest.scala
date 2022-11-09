@@ -105,4 +105,5 @@ class MethodTest extends ArnoldGeneratorTest {
   it should "evalute a return statement in void calls" in {
     val code =
       "IT'S SHOWTIME\n" +
-        "DO IT NOW metho
+        "DO IT NOW method\n" +
+        "YOU HAVE BEEN TERMINATED\n"
