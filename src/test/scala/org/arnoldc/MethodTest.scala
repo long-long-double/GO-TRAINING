@@ -111,4 +111,7 @@ class MethodTest extends ArnoldGeneratorTest {
         "I'LL BE BACK\n" +
         "HASTA LA VISTA, BABY\n"
 
-    getOutput(code) should equal(
+    getOutput(code) should equal("")
+  }
+
+  it should "evalute multiple return stateme
