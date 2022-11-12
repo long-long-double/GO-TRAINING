@@ -107,4 +107,6 @@ class MethodTest extends ArnoldGeneratorTest {
       "IT'S SHOWTIME\n" +
         "DO IT NOW method\n" +
         "YOU HAVE BEEN TERMINATED\n" +
-        "LISTEN TO ME VERY CAREFULLY method\n" 
+        "LISTEN TO ME VERY CAREFULLY method\n" +
+        "I'LL BE BACK\n" +
+        "HASTA
