@@ -109,4 +109,6 @@ class MethodTest extends ArnoldGeneratorTest {
         "YOU HAVE BEEN TERMINATED\n" +
         "LISTEN TO ME VERY CAREFULLY method\n" +
         "I'LL BE BACK\n" +
-        "HASTA
+        "HASTA LA VISTA, BABY\n"
+
+    getOutput(code) should equal(
