@@ -114,4 +114,5 @@ class MethodTest extends ArnoldGeneratorTest {
     getOutput(code) should equal("")
   }
 
-  it should "evalute multiple return stateme
+  it should "evalute multiple return statemenents in void calls" in {
+    val code = "IT'S SHOW
