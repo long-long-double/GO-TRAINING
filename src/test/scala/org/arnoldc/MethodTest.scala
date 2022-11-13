@@ -115,4 +115,5 @@ class MethodTest extends ArnoldGeneratorTest {
   }
 
   it should "evalute multiple return statemenents in void calls" in {
-    val code = "IT'S SHOW
+    val code = "IT'S SHOWTIME\n" +
+      "DO IT NOW printboolean @NO PROBL
