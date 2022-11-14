@@ -119,4 +119,5 @@ class MethodTest extends ArnoldGeneratorTest {
       "DO IT NOW printboolean @NO PROBLEMO\n" +
       "DO IT NOW printboolean @I LIED\n" +
       "YOU HAVE BEEN TERMINATED\n" +
-      "LISTE
+      "LISTEN TO ME VERY CAREFULLY printboolean\n" +
+  
