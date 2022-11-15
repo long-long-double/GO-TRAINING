@@ -122,4 +122,5 @@ class MethodTest extends ArnoldGeneratorTest {
       "LISTEN TO ME VERY CAREFULLY printboolean\n" +
       "I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE value\n" +
       "BECAUSE I'M GOING TO SAY PLEASE value\n" +
-      "TALK TO T
+      "TALK TO THE HAND \"true\"\n" +
+      "I'LL BE BACK\n"
