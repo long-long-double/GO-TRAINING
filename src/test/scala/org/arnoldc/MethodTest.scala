@@ -121,4 +121,5 @@ class MethodTest extends ArnoldGeneratorTest {
       "YOU HAVE BEEN TERMINATED\n" +
       "LISTEN TO ME VERY CAREFULLY printboolean\n" +
       "I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE value\n" +
-      "BECAUSE I'M 
+      "BECAUSE I'M GOING TO SAY PLEASE value\n" +
+      "TALK TO T
