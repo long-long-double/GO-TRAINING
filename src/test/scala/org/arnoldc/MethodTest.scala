@@ -125,4 +125,5 @@ class MethodTest extends ArnoldGeneratorTest {
       "TALK TO THE HAND \"true\"\n" +
       "I'LL BE BACK\n" +
       "BULLSHIT\n" +
-      "T
+      "TALK TO THE HAND \"false\"\n" +
+   
