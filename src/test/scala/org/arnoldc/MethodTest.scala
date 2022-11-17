@@ -127,4 +127,7 @@ class MethodTest extends ArnoldGeneratorTest {
       "BULLSHIT\n" +
       "TALK TO THE HAND \"false\"\n" +
       "I'LL BE BACK\n" +
-      "YOU HAVE NO RESP
+      "YOU HAVE NO RESPECT FOR LOGIC\n" +
+      "HASTA LA VISTA, BABY\n"
+
+    get
