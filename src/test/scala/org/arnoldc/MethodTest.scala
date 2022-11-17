@@ -130,4 +130,5 @@ class MethodTest extends ArnoldGeneratorTest {
       "YOU HAVE NO RESPECT FOR LOGIC\n" +
       "HASTA LA VISTA, BABY\n"
 
-    get
+    getOutput(code) should equal("true\nfalse\n")
+  }
