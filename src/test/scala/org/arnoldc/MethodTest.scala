@@ -132,3 +132,5 @@ class MethodTest extends ArnoldGeneratorTest {
 
     getOutput(code) should equal("true\nfalse\n")
   }
+
+  it should "evalute multiple return statemen
