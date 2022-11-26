@@ -145,4 +145,5 @@ class MethodTest extends ArnoldGeneratorTest {
       "BULLSHIT\n" +
       "TALK TO THE HAND \"false\"\n" +
       "YOU HAVE NO RESPECT FOR LOGIC\n" +
-      "HASTA LA VIS
+      "HASTA LA VISTA, BABY\n"
+    getOutput(code) should eq
