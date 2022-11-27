@@ -146,4 +146,7 @@ class MethodTest extends ArnoldGeneratorTest {
       "TALK TO THE HAND \"false\"\n" +
       "YOU HAVE NO RESPECT FOR LOGIC\n" +
       "HASTA LA VISTA, BABY\n"
-    getOutput(code) should eq
+    getOutput(code) should equal("true\nfalse\n")
+  }
+
+  it should "evalute multiple retur
