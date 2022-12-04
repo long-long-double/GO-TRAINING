@@ -164,4 +164,8 @@ class MethodTest extends ArnoldGeneratorTest {
       "I'LL BE BACK\n" +
       "I'LL BE BACK\n" +
       "HASTA LA VISTA, BABY\n"
-    getO
+    getOutput(code) should equal("true\nfalse\n")
+  }
+
+
+  
