@@ -168,4 +168,4 @@ class MethodTest extends ArnoldGeneratorTest {
   }
 
 
-  
+  it should "evalute multiple return sta
