@@ -171,4 +171,6 @@ class MethodTest extends ArnoldGeneratorTest {
   it should "evalute multiple return statemenents in void calls with unreachable code" in {
     val code = "IT'S SHOWTIME\n" +
       "DO IT NOW method\n" +
-      "YOU HAVE BEEN TERMINATED\n"
+      "YOU HAVE BEEN TERMINATED\n" +
+      "LISTEN TO ME VERY CAREFULLY method\n" +
+  
