@@ -175,4 +175,5 @@ class MethodTest extends ArnoldGeneratorTest {
       "LISTEN TO ME VERY CAREFULLY method\n" +
       "TALK TO THE HAND \"reached codeblock\"\n" +
       "I'LL BE BACK\n" +
-      "TALK TO 
+      "TALK TO THE HAND \"unreached codeblock\"\n" +
+      "HASTA LA VIST
