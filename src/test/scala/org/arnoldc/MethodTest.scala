@@ -176,4 +176,6 @@ class MethodTest extends ArnoldGeneratorTest {
       "TALK TO THE HAND \"reached codeblock\"\n" +
       "I'LL BE BACK\n" +
       "TALK TO THE HAND \"unreached codeblock\"\n" +
-      "HASTA LA VIST
+      "HASTA LA VISTA, BABY\n"
+
+    getOutput(code) should equal("reached codebl
