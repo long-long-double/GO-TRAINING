@@ -178,4 +178,7 @@ class MethodTest extends ArnoldGeneratorTest {
       "TALK TO THE HAND \"unreached codeblock\"\n" +
       "HASTA LA VISTA, BABY\n"
 
-    getOutput(code) should equal("reached codebl
+    getOutput(code) should equal("reached codeblock\n")
+  }
+
+  it should "evalute void method call
