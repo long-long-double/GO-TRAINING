@@ -181,4 +181,5 @@ class MethodTest extends ArnoldGeneratorTest {
     getOutput(code) should equal("reached codeblock\n")
   }
 
-  it should "evalute void method call
+  it should "evalute void method calls returning from branched statements" in {
+    val code
