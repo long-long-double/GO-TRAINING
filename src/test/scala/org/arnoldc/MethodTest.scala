@@ -182,4 +182,6 @@ class MethodTest extends ArnoldGeneratorTest {
   }
 
   it should "evalute void method calls returning from branched statements" in {
-    val code
+    val code =
+      "IT'S SHOWTIME\n" +
+        "DO IT NOW reverse @
