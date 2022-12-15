@@ -185,4 +185,5 @@ class MethodTest extends ArnoldGeneratorTest {
     val code =
       "IT'S SHOWTIME\n" +
         "DO IT NOW reverse @NO PROBLEMO\n" +
-        "YOU HAVE BEEN TERMI
+        "YOU HAVE BEEN TERMINATED\n" +
+        "LISTEN TO ME VERY 
