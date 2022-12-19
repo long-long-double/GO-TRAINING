@@ -190,4 +190,5 @@ class MethodTest extends ArnoldGeneratorTest {
         "I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE value\n" +
         "BECAUSE I'M GOING TO SAY PLEASE value\n" +
         "TALK TO THE HAND \"evaluated\"\n" +
-    
+        "I'LL BE BACK\n" +
+        "YOU HAVE NO RESPE
