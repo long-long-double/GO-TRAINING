@@ -191,4 +191,5 @@ class MethodTest extends ArnoldGeneratorTest {
         "BECAUSE I'M GOING TO SAY PLEASE value\n" +
         "TALK TO THE HAND \"evaluated\"\n" +
         "I'LL BE BACK\n" +
-        "YOU HAVE NO RESPE
+        "YOU HAVE NO RESPECT FOR LOGIC\n" +
+        "TALK TO THE
