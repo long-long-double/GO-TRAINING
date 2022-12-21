@@ -198,4 +198,6 @@ class MethodTest extends ArnoldGeneratorTest {
     getOutput(code) should equal("evaluated\n")
   }
 
-  it should "evalute non void method calls returning from branche
+  it should "evalute non void method calls returning from branched statements" in {
+    val code =
+      "I
