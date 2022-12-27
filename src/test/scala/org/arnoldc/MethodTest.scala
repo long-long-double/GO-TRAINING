@@ -204,3 +204,4 @@ class MethodTest extends ArnoldGeneratorTest {
         "DO IT NOW reverse @NO PROBLEMO\n" +
         "YOU HAVE BEEN TERMINATED\n" +
         "LISTEN TO ME VERY CAREFULLY reverse\n" +
+        "I NEED YOUR CLOTHES YOUR BOOTS AND YOUR
