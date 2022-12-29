@@ -211,4 +211,6 @@ class MethodTest extends ArnoldGeneratorTest {
         "I'LL BE BACK 0\n" +
         "TALK TO THE HAND \"evaluated\"\n" +
         "YOU HAVE NO RESPECT FOR LOGIC\n" +
-        "TALK TO THE HAND \"not evaluate
+        "TALK TO THE HAND \"not evaluated\"\n"+
+        "I'LL BE BACK 0\n" +
+        "
