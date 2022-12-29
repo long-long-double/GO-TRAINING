@@ -213,4 +213,5 @@ class MethodTest extends ArnoldGeneratorTest {
         "YOU HAVE NO RESPECT FOR LOGIC\n" +
         "TALK TO THE HAND \"not evaluated\"\n"+
         "I'LL BE BACK 0\n" +
-        "
+        "HASTA LA VISTA, BABY\n"
+    getOutput(code) should equa
