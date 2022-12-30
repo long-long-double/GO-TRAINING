@@ -214,4 +214,7 @@ class MethodTest extends ArnoldGeneratorTest {
         "TALK TO THE HAND \"not evaluated\"\n"+
         "I'LL BE BACK 0\n" +
         "HASTA LA VISTA, BABY\n"
-    getOutput(code) should equa
+    getOutput(code) should equal("evaluated\n")
+  }
+
+  it should "evalute assignments 
