@@ -217,4 +217,5 @@ class MethodTest extends ArnoldGeneratorTest {
     getOutput(code) should equal("evaluated\n")
   }
 
-  it should "evalute assignments 
+  it should "evalute assignments to variables from method calls " in {
+    val code 
