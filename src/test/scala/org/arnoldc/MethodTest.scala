@@ -218,4 +218,6 @@ class MethodTest extends ArnoldGeneratorTest {
   }
 
   it should "evalute assignments to variables from method calls " in {
-    val code 
+    val code =
+      "IT'S SHOWTIME\n" +
+        "HEY CHRIS
