@@ -221,4 +221,6 @@ class MethodTest extends ArnoldGeneratorTest {
     val code =
       "IT'S SHOWTIME\n" +
         "HEY CHRISTMAS TREE result\n" +
-        "YOU SET US UP 0\n"
+        "YOU SET US UP 0\n" +
+        "GET YOUR ASS TO MARS result\n" +
+        "DO IT
