@@ -223,4 +223,5 @@ class MethodTest extends ArnoldGeneratorTest {
         "HEY CHRISTMAS TREE result\n" +
         "YOU SET US UP 0\n" +
         "GET YOUR ASS TO MARS result\n" +
-        "DO IT
+        "DO IT NOW square 7\n" +
+        "TALK TO THE HAND resu
