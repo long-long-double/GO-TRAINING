@@ -224,4 +224,5 @@ class MethodTest extends ArnoldGeneratorTest {
         "YOU SET US UP 0\n" +
         "GET YOUR ASS TO MARS result\n" +
         "DO IT NOW square 7\n" +
-        "TALK TO THE HAND resu
+        "TALK TO THE HAND result\n" +
+        "YOU HAVE BEEN TERMINATE
