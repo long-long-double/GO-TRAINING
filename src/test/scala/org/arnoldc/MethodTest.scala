@@ -226,4 +226,5 @@ class MethodTest extends ArnoldGeneratorTest {
         "DO IT NOW square 7\n" +
         "TALK TO THE HAND result\n" +
         "YOU HAVE BEEN TERMINATED\n" +
-        "LISTEN TO ME VERY CAREFULLY square
+        "LISTEN TO ME VERY CAREFULLY square\n" +
+        "I NEED YOUR CLOTHES YOUR 
