@@ -227,4 +227,5 @@ class MethodTest extends ArnoldGeneratorTest {
         "TALK TO THE HAND result\n" +
         "YOU HAVE BEEN TERMINATED\n" +
         "LISTEN TO ME VERY CAREFULLY square\n" +
-        "I NEED YOUR CLOTHES YOUR 
+        "I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE value\n" +
+   
