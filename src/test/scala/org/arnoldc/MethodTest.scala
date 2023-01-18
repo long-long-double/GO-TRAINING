@@ -229,4 +229,5 @@ class MethodTest extends ArnoldGeneratorTest {
         "LISTEN TO ME VERY CAREFULLY square\n" +
         "I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE value\n" +
         "GIVE THESE PEOPLE AIR\n" +
-        "GET TO THE C
+        "GET TO THE CHOPPER value\n" +
+        "HERE IS MY INVITATION valu
