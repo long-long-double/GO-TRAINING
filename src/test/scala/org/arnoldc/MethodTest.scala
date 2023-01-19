@@ -230,4 +230,6 @@ class MethodTest extends ArnoldGeneratorTest {
         "I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE value\n" +
         "GIVE THESE PEOPLE AIR\n" +
         "GET TO THE CHOPPER value\n" +
-        "HERE IS MY INVITATION valu
+        "HERE IS MY INVITATION value\n" +
+        "YOU'RE FIRED value\n" +
+    
