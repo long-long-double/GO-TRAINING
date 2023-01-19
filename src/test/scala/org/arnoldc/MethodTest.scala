@@ -234,4 +234,5 @@ class MethodTest extends ArnoldGeneratorTest {
         "YOU'RE FIRED value\n" +
         "ENOUGH TALK\n" +
         "I'LL BE BACK value\n" +
-   
+        "HASTA LA VISTA, BABY\n"
+    getOutp
