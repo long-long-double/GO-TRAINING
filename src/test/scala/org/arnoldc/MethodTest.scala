@@ -232,4 +232,6 @@ class MethodTest extends ArnoldGeneratorTest {
         "GET TO THE CHOPPER value\n" +
         "HERE IS MY INVITATION value\n" +
         "YOU'RE FIRED value\n" +
-    
+        "ENOUGH TALK\n" +
+        "I'LL BE BACK value\n" +
+   
