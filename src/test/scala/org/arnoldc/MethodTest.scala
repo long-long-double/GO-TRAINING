@@ -235,4 +235,7 @@ class MethodTest extends ArnoldGeneratorTest {
         "ENOUGH TALK\n" +
         "I'LL BE BACK value\n" +
         "HASTA LA VISTA, BABY\n"
-    getOutp
+    getOutput(code) should equal("49\n")
+  }
+
+  it should "detect un
