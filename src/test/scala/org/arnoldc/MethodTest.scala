@@ -238,4 +238,6 @@ class MethodTest extends ArnoldGeneratorTest {
     getOutput(code) should equal("49\n")
   }
 
-  it should "detect un
+  it should "detect unclosed main method" in {
+    val code =
+  
