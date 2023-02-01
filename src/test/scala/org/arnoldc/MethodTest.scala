@@ -241,4 +241,4 @@ class MethodTest extends ArnoldGeneratorTest {
   it should "detect unclosed main method" in {
     val code =
       "IT'S SHOWTIME\n" +
-       
+        "LISTEN TO ME VERY CAREFULLY pri
