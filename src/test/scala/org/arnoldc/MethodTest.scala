@@ -242,4 +242,6 @@ class MethodTest extends ArnoldGeneratorTest {
     val code =
       "IT'S SHOWTIME\n" +
         "LISTEN TO ME VERY CAREFULLY printHello\n" +
-        "TALK TO THE HAND \"Hello\"
+        "TALK TO THE HAND \"Hello\"\n"
+    intercept[ParsingException] {
+      getOutpu
