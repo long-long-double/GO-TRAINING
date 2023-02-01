@@ -244,4 +244,7 @@ class MethodTest extends ArnoldGeneratorTest {
         "LISTEN TO ME VERY CAREFULLY printHello\n" +
         "TALK TO THE HAND \"Hello\"\n"
     intercept[ParsingException] {
-      getOutpu
+      getOutput(code)
+    }
+  }
+  it should "detect unclosed
