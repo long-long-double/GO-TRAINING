@@ -252,4 +252,5 @@ class MethodTest extends ArnoldGeneratorTest {
       "IT'S SHOWTIME\n" +
         "YOU HAVE BEEN TERMINATED\n" +
         "LISTEN TO ME VERY CAREFULLY printHello\n" +
-        "TALK TO
+        "TALK TO THE HAND \"Hello\"\n"
+    intercept[ParsingExcept
