@@ -250,4 +250,5 @@ class MethodTest extends ArnoldGeneratorTest {
   it should "detect unclosed methods" in {
     val code =
       "IT'S SHOWTIME\n" +
-     
+        "YOU HAVE BEEN TERMINATED\n" +
+        "LISTEN TO ME
