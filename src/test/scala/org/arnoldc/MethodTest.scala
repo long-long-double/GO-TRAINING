@@ -253,4 +253,9 @@ class MethodTest extends ArnoldGeneratorTest {
         "YOU HAVE BEEN TERMINATED\n" +
         "LISTEN TO ME VERY CAREFULLY printHello\n" +
         "TALK TO THE HAND \"Hello\"\n"
-    intercept[ParsingExcept
+    intercept[ParsingException] {
+      getOutput(code)
+    }
+  }
+
+  it sh
