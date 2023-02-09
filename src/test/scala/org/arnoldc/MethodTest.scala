@@ -262,4 +262,5 @@ class MethodTest extends ArnoldGeneratorTest {
     val code =
       "IT'S SHOWTIME\n" +
         "DO IT NOW noSuchMethod\n" +
-   
+        "YOU HAVE BEEN TERMINATED\n"
+    intercept
