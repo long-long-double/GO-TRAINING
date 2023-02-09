@@ -269,4 +269,6 @@ class MethodTest extends ArnoldGeneratorTest {
   }
 
   it should "detect if void method tries to return a parameter" in {
-    val code = "IT'S 
+    val code = "IT'S SHOWTIME\n" +
+      "DO IT NOW method\n" +
+      "Y
