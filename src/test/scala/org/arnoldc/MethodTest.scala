@@ -263,4 +263,5 @@ class MethodTest extends ArnoldGeneratorTest {
       "IT'S SHOWTIME\n" +
         "DO IT NOW noSuchMethod\n" +
         "YOU HAVE BEEN TERMINATED\n"
-    intercept
+    intercept[ParsingException] {
+      getOutput(code)
