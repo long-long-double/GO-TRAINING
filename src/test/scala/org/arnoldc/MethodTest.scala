@@ -265,3 +265,7 @@ class MethodTest extends ArnoldGeneratorTest {
         "YOU HAVE BEEN TERMINATED\n"
     intercept[ParsingException] {
       getOutput(code)
+    }
+  }
+
+  it should "detect if void method tri
