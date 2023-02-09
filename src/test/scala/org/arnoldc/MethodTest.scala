@@ -258,4 +258,6 @@ class MethodTest extends ArnoldGeneratorTest {
     }
   }
 
-  it should "detect calls to methods that are not dec
+  it should "detect calls to methods that are not declared" in {
+    val code =
+      "IT'S SHOWT
