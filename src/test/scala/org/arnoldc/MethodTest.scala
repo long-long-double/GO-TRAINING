@@ -258,4 +258,4 @@ class MethodTest extends ArnoldGeneratorTest {
     }
   }
 
-  it sh
+  it should "detect calls to methods that are not dec
