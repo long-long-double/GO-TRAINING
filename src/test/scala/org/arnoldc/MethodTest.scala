@@ -260,4 +260,6 @@ class MethodTest extends ArnoldGeneratorTest {
 
   it should "detect calls to methods that are not declared" in {
     val code =
-      "IT'S SHOWT
+      "IT'S SHOWTIME\n" +
+        "DO IT NOW noSuchMethod\n" +
+   
