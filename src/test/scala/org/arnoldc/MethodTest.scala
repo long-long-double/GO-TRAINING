@@ -268,4 +268,5 @@ class MethodTest extends ArnoldGeneratorTest {
     }
   }
 
-  it should "detect if void method tri
+  it should "detect if void method tries to return a parameter" in {
+    val code = "IT'S 
