@@ -277,4 +277,8 @@ class MethodTest extends ArnoldGeneratorTest {
       "HASTA LA VISTA, BABY\n"
 
     intercept[ParsingException] {
-  
+      getOutput(code)
+    }
+  }
+
+  it shoul
