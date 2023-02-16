@@ -281,4 +281,4 @@ class MethodTest extends ArnoldGeneratorTest {
     }
   }
 
-  it shoul
+  it should "detect if a non-void method tries to return a
