@@ -284,4 +284,5 @@ class MethodTest extends ArnoldGeneratorTest {
   it should "detect if a non-void method tries to return a without a parameter" in {
     val code = "IT'S SHOWTIME\n" +
       "DO IT NOW method 0\n" +
-      "YOU HAVE BEEN TERMI
+      "YOU HAVE BEEN TERMINATED\n" +
+      "LISTEN TO ME VERY CAREFULLY m
