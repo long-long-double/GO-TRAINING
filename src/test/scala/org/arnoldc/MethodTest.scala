@@ -286,4 +286,5 @@ class MethodTest extends ArnoldGeneratorTest {
       "DO IT NOW method 0\n" +
       "YOU HAVE BEEN TERMINATED\n" +
       "LISTEN TO ME VERY CAREFULLY method\n" +
-      "I NEED YOUR CLOTHES YOUR BOOTS AND YO
+      "I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE value\n" +
+      "GIVE THESE P
