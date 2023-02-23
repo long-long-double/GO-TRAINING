@@ -289,4 +289,6 @@ class MethodTest extends ArnoldGeneratorTest {
       "I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE value\n" +
       "GIVE THESE PEOPLE AIR\n" +
       "I'LL BE BACK\n" +
-    
+      "HASTA LA VISTA, BABY\n"
+
+    intercept[ParsingException]
